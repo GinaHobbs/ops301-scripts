@@ -1,0 +1,1212 @@
+Mar  8 16:26:47 ginaserver systemd[1]: logrotate.service: Deactivated successfully.
+Mar  8 16:26:47 ginaserver systemd[1]: Finished Rotate log files.
+Mar  8 16:26:47 ginaserver systemd[1]: ua-messaging.service: Deactivated successfully.
+Mar  8 16:26:47 ginaserver systemd[1]: Finished Ubuntu Advantage APT and MOTD Messages.
+Mar  8 16:26:48 ginaserver systemd[1]: man-db.service: Deactivated successfully.
+Mar  8 16:26:48 ginaserver systemd[1]: Finished Daily man-db regeneration.
+Mar  8 16:26:48 ginaserver dbus-daemon[678]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Mar  8 16:26:48 ginaserver systemd[1]: Started Firmware update daemon.
+Mar  8 16:26:48 ginaserver fwupdmgr[6086]: Updating lvfs
+Mar  8 16:26:49 ginaserver 50-motd-news[6313]:  * Super-optimized for small spaces - read how we shrank the memory
+Mar  8 16:26:49 ginaserver 50-motd-news[6313]:    footprint of MicroK8s to make it the smallest full K8s around.
+Mar  8 16:26:49 ginaserver 50-motd-news[6313]:    https://ubuntu.com/blog/microk8s-memory-optimisation
+Mar  8 16:26:49 ginaserver systemd[1]: motd-news.service: Deactivated successfully.
+Mar  8 16:26:49 ginaserver systemd[1]: Finished Message of the Day.
+Mar  8 16:26:49 ginaserver fwupdmgr[6086]: Successfully downloaded new metadata: 0 local devices supported
+Mar  8 16:26:49 ginaserver systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Mar  8 16:26:49 ginaserver systemd[1]: Finished Refresh fwupd metadata and update motd.
+Mar  8 16:27:17 ginaserver systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Mar  8 16:27:21 ginaserver systemd[1]: Started Session 48 of user ginahobbs.
+Mar  8 16:27:24 ginaserver systemd[1]: apt-daily.service: Deactivated successfully.
+Mar  8 16:27:24 ginaserver systemd[1]: Finished Daily apt download activities.
+Mar  8 16:27:24 ginaserver systemd[1]: apt-daily.service: Consumed 15.227s CPU time.
+Mar  8 16:27:24 ginaserver systemd[1]: Starting Daily apt upgrade and clean activities...
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:32 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:27:33 ginaserver systemd[1]: Reloading.
+Mar  8 16:27:34 ginaserver systemd[1]: Starting Check to see whether there is a new version of Ubuntu available...
+Mar  8 16:27:34 ginaserver systemd[1]: update-notifier-motd.service: Deactivated successfully.
+Mar  8 16:27:34 ginaserver systemd[1]: Finished Check to see whether there is a new version of Ubuntu available.
+Mar  8 16:27:34 ginaserver systemd[1]: Stopping Authorization Manager...
+Mar  8 16:27:34 ginaserver systemd[1]: polkit.service: Deactivated successfully.
+Mar  8 16:27:34 ginaserver systemd[1]: Stopped Authorization Manager.
+Mar  8 16:27:34 ginaserver systemd[1]: Starting Authorization Manager...
+Mar  8 16:27:34 ginaserver polkitd[6961]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Mar  8 16:27:34 ginaserver systemd[1]: Started Authorization Manager.
+Mar  8 16:27:34 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:27:34 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:28:05 ginaserver systemd[1]: Reloading.
+Mar  8 16:34:29 ginaserver kernel: [142027.200296] SGI XFS with ACLs, security attributes, realtime, quota, no debug enabled
+Mar  8 16:34:29 ginaserver kernel: [142027.243766] JFS: nTxBlock = 7771, nTxLock = 62174
+Mar  8 16:34:29 ginaserver kernel: [142027.283801] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Mar  8 16:34:29 ginaserver kernel: [142027.323428] QNX4 filesystem 0.2.3 registered.
+Mar  8 16:28:06 ginaserver systemd[1]: Reloading.
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda1
+Mar  8 16:34:29 ginaserver 50mounted-tests: debug: /dev/sda1 type not recognised; skipping
+Mar  8 16:34:29 ginaserver os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 05efi: debug: Not on UEFI platform
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 10freedos: debug: /dev/sda2 is not a FAT partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 10qnx: debug: /dev/sda2 is not a QNX4 partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver macosx-prober: debug: /dev/sda2 is not an HFS+ partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 20microsoft: debug: /dev/sda2 is not a MS partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 30utility: debug: /dev/sda2 is not a FAT partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver 83haiku: debug: /dev/sda2 is not a BeFS partition: exiting
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda2
+Mar  8 16:34:29 ginaserver os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda3
+Mar  8 16:34:29 ginaserver 50mounted-tests: debug: /dev/sda3 is an LVM member; skipping
+Mar  8 16:34:29 ginaserver os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar  8 16:34:42 ginaserver systemd[1]: snapd.apparmor.service: Deactivated successfully.
+Mar  8 16:34:42 ginaserver systemd[1]: Stopped Load AppArmor profiles managed internally by snapd.
+Mar  8 16:34:42 ginaserver systemd[1]: snapd.seeded.service: Deactivated successfully.
+Mar  8 16:34:42 ginaserver systemd[1]: Stopped Wait until snapd is fully seeded.
+Mar  8 16:34:42 ginaserver systemd[1]: Stopping Snap Daemon...
+Mar  8 16:34:42 ginaserver snapd[686]: main.go:155: Exiting on terminated signal.
+Mar  8 16:34:42 ginaserver systemd[1]: snapd.service: Deactivated successfully.
+Mar  8 16:34:42 ginaserver systemd[1]: Stopped Snap Daemon.
+Mar  8 16:34:42 ginaserver systemd[1]: snapd.service: Consumed 11.045s CPU time.
+Mar  8 16:34:42 ginaserver systemd[1]: snapd.socket: Deactivated successfully.
+Mar  8 16:34:42 ginaserver systemd[1]: Closed Socket activation for snappy daemon.
+Mar  8 16:34:45 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:34:45 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:34:45 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:34:45 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:34:46 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:34:46 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:34:46 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:34:46 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:34:46 ginaserver kernel: [142044.375302] kauditd_printk_skb: 6 callbacks suppressed
+Mar  8 16:34:46 ginaserver kernel: [142044.375305] audit: type=1400 audit(1646757286.662:49): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=31817 comm="apparmor_parser"
+Mar  8 16:34:46 ginaserver kernel: [142044.376284] audit: type=1400 audit(1646757286.662:50): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=31817 comm="apparmor_parser"
+Mar  8 16:34:47 ginaserver systemd[1]: Reloading.
+Mar  8 16:34:48 ginaserver systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Mar  8 16:34:48 ginaserver systemd[1]: Starting Socket activation for snappy daemon.
+Mar  8 16:34:48 ginaserver systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Mar  8 16:34:48 ginaserver systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Mar  8 16:34:48 ginaserver systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Mar  8 16:34:48 ginaserver systemd[1]: Condition check resulted in Ubuntu core (all-snaps) system shutdown helper setup service being skipped.
+Mar  8 16:34:48 ginaserver systemd[1]: Listening on Socket activation for snappy daemon.
+Mar  8 16:34:48 ginaserver systemd[1]: Starting Snap Daemon...
+Mar  8 16:34:48 ginaserver kernel: [142046.250642] audit: type=1400 audit(1646757288.538:51): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine" pid=31931 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.250648] audit: type=1400 audit(1646757288.538:52): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/13170/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=31931 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.260180] audit: type=1400 audit(1646757288.546:53): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/14549/usr/lib/snapd/snap-confine" pid=31934 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.260184] audit: type=1400 audit(1646757288.546:54): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/14549/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=31934 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver snapd[31921]: AppArmor status: apparmor is enabled and all features are available
+Mar  8 16:34:48 ginaserver kernel: [142046.267676] audit: type=1400 audit(1646757288.550:55): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=31939 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.279963] audit: type=1400 audit(1646757288.566:56): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=31943 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.307480] audit: type=1400 audit(1646757288.594:57): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=31946 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver kernel: [142046.320019] audit: type=1400 audit(1646757288.602:58): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=31947 comm="apparmor_parser"
+Mar  8 16:34:48 ginaserver snapd[31921]: patch.go:63: Patching system state level 6 to sublevel 1...
+Mar  8 16:34:48 ginaserver snapd[31921]: patch.go:63: Patching system state level 6 to sublevel 2...
+Mar  8 16:34:48 ginaserver snapd[31921]: patch.go:63: Patching system state level 6 to sublevel 3...
+Mar  8 16:34:48 ginaserver snapd[31921]: daemon.go:246: started snapd/2.54.3+21.10.1ubuntu0.2 (series 16; classic) ubuntu/21.10 (amd64) linux/5.13.0-28-generic.
+Mar  8 16:34:48 ginaserver kernel: [142046.444509] loop0: detected capacity change from 0 to 8
+Mar  8 16:34:48 ginaserver snapd[31921]: daemon.go:339: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Mar  8 16:34:48 ginaserver systemd[998]: tmp-sanity\x2dmountpoint\x2d357786645.mount: Deactivated successfully.
+Mar  8 16:34:48 ginaserver systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Mar  8 16:34:50 ginaserver systemd[1]: Started Snap Daemon.
+Mar  8 16:34:50 ginaserver systemd[1]: Starting Wait until snapd is fully seeded...
+Mar  8 16:34:50 ginaserver dbus-daemon[678]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.88' (uid=0 pid=31921 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  8 16:34:50 ginaserver systemd[1]: Starting Time & Date Service...
+Mar  8 16:34:50 ginaserver dbus-daemon[678]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  8 16:34:50 ginaserver systemd[1]: Started Time & Date Service.
+Mar  8 16:34:50 ginaserver systemd[1]: Finished Wait until snapd is fully seeded.
+Mar  8 16:34:50 ginaserver systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Mar  8 16:34:50 ginaserver dbus-daemon[678]: Unknown group "power" in message bus configuration file
+Mar  8 16:34:50 ginaserver dbus-daemon[678]: [system] Reloaded configuration
+Mar  8 16:35:00 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:01 ginaserver systemd[1]: Reexecuting.
+Mar  8 16:35:01 ginaserver kernel: [142059.161318] systemd[1]: systemd 248.3-1ubuntu8.2 running in system mode. (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP -LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Mar  8 16:35:01 ginaserver kernel: [142059.161364] systemd[1]: Detected virtualization oracle.
+Mar  8 16:35:01 ginaserver kernel: [142059.161368] systemd[1]: Detected architecture x86-64.
+Mar  8 16:35:01 ginaserver systemd[1]: Cannot find unit for notify message of PID 32418, ignoring.
+Mar  8 16:35:01 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:02 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:04 ginaserver snapd[31921]: taskrunner.go:271: [change 12 "Mount snap \"core20\" (1361)" task] failed: systemctl command [enable snap-core20-1361.mount] failed with exit status 1: Failed to enable unit: Connection reset by peer
+Mar  8 16:35:04 ginaserver systemd[1]: Cannot find unit for notify message of PID 32549, ignoring.
+Mar  8 16:35:05 ginaserver snapd[31921]: handlers.go:644: Reported install problem for "core20" as b54fcf5a-9efd-11ec-935b-fa163e983629 OOPSID
+Mar  8 16:35:10 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:11 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:11 ginaserver systemd[1]: Mounting Mount unit for snapd, revision 14978...
+Mar  8 16:35:11 ginaserver kernel: [142069.299124] loop0: detected capacity change from 0 to 89264
+Mar  8 16:35:11 ginaserver systemd[1]: Mounted Mount unit for snapd, revision 14978.
+Mar  8 16:35:12 ginaserver kernel: [142070.691107] kauditd_printk_skb: 26 callbacks suppressed
+Mar  8 16:35:12 ginaserver kernel: [142070.691110] audit: type=1400 audit(1646757312.972:85): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/14978/usr/lib/snapd/snap-confine" pid=32915 comm="apparmor_parser"
+Mar  8 16:35:12 ginaserver kernel: [142070.698268] audit: type=1400 audit(1646757312.980:86): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/snap/snapd/14978/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=32915 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.750391] audit: type=1400 audit(1646757313.036:87): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap-update-ns.lxd" pid=32917 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.766186] audit: type=1400 audit(1646757313.044:88): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.activate" pid=32918 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.776455] audit: type=1400 audit(1646757313.060:89): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.benchmark" pid=32919 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.796782] audit: type=1400 audit(1646757313.080:90): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.buginfo" pid=32920 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.803988] audit: type=1400 audit(1646757313.088:91): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.check-kernel" pid=32921 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.817233] audit: type=1400 audit(1646757313.096:92): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.daemon" pid=32922 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.837435] audit: type=1400 audit(1646757313.120:93): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.configure" pid=32923 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver kernel: [142070.844409] audit: type=1400 audit(1646757313.128:94): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="snap.lxd.hook.install" pid=32924 comm="apparmor_parser"
+Mar  8 16:35:13 ginaserver snapd[31921]: daemon.go:509: gracefully waiting for running hooks
+Mar  8 16:35:13 ginaserver snapd[31921]: daemon.go:511: done waiting for running hooks
+Mar  8 16:35:13 ginaserver systemd[1]: snapd.service: Deactivated successfully.
+Mar  8 16:35:13 ginaserver systemd[1]: snapd.service: Consumed 5.360s CPU time.
+Mar  8 16:35:13 ginaserver systemd[1]: snapd.service: Scheduled restart job, restart counter is at 1.
+Mar  8 16:35:13 ginaserver systemd[1]: Stopped Snap Daemon.
+Mar  8 16:35:13 ginaserver systemd[1]: snapd.service: Consumed 5.360s CPU time.
+Mar  8 16:35:13 ginaserver systemd[1]: Starting Snap Daemon...
+Mar  8 16:35:14 ginaserver snapd[32939]: AppArmor status: apparmor is enabled and all features are available
+Mar  8 16:35:14 ginaserver snapd[32939]: daemon.go:246: started snapd/2.54.3+21.10.1ubuntu0.2 (series 16; classic) ubuntu/21.10 (amd64) linux/5.13.0-28-generic.
+Mar  8 16:35:14 ginaserver kernel: [142071.808816] loop7: detected capacity change from 0 to 8
+Mar  8 16:35:14 ginaserver systemd[998]: tmp-sanity\x2dmountpoint\x2d4139374929.mount: Deactivated successfully.
+Mar  8 16:35:14 ginaserver systemd[1]: tmp-sanity\x2dmountpoint\x2d4139374929.mount: Deactivated successfully.
+Mar  8 16:35:14 ginaserver snapd[32939]: daemon.go:339: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Mar  8 16:35:14 ginaserver systemd[1]: Started Snap Daemon.
+Mar  8 16:35:15 ginaserver systemd[1]: snap-snapd-13170.mount: Deactivated successfully.
+Mar  8 16:35:15 ginaserver systemd[998]: snap-snapd-13170.mount: Deactivated successfully.
+Mar  8 16:35:15 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:16 ginaserver systemd[1]: Reloading.
+Mar  8 16:35:17 ginaserver snapd[32939]: storehelpers.go:721: cannot refresh snap "snapd": snap has no updates available
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda1
+Mar  8 16:35:20 ginaserver 50mounted-tests: debug: /dev/sda1 type not recognised; skipping
+Mar  8 16:35:20 ginaserver os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/05efi on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 05efi: debug: Not on UEFI platform
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/10freedos on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 10freedos: debug: /dev/sda2 is not a FAT partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/10qnx on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 10qnx: debug: /dev/sda2 is not a QNX4 partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/20macosx on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver macosx-prober: debug: /dev/sda2 is not an HFS+ partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/20microsoft on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 20microsoft: debug: /dev/sda2 is not a MS partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/30utility on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 30utility: debug: /dev/sda2 is not a FAT partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/40lsb on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/70hurd on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/80minix on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/83haiku on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver 83haiku: debug: /dev/sda2 is not a BeFS partition: exiting
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/90linux-distro on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/mounted/90solaris on mounted /dev/sda2
+Mar  8 16:35:20 ginaserver os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/sda3
+Mar  8 16:35:20 ginaserver 50mounted-tests: debug: /dev/sda3 is an LVM member; skipping
+Mar  8 16:35:20 ginaserver os-prober: debug: os detected by /usr/lib/os-probes/50mounted-tests
+Mar  8 16:35:30 ginaserver systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+Mar  8 16:35:30 ginaserver systemd[1]: Finished Daily apt upgrade and clean activities.
+Mar  8 16:35:30 ginaserver systemd[1]: apt-daily-upgrade.service: Consumed 5min 26.092s CPU time.
+Mar  8 16:35:44 ginaserver systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar  8 16:36:17 ginaserver systemd[1]: snap-snapd-14549.mount: Deactivated successfully.
+Mar  8 16:36:17 ginaserver systemd[998]: snap-snapd-14549.mount: Deactivated successfully.
+Mar  8 16:36:17 ginaserver systemd[1]: Reloading.
+Mar  8 16:36:18 ginaserver systemd[1]: Reloading.
+Mar  8 17:17:01 ginaserver CRON[34347]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  8 21:15:33 ginaserver systemd[1]: modprobe@fuse.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Load Kernel Module fuse.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Uncomplicated firewall.
+Mar  8 21:15:33 ginaserver lvm[373]:   1 logical volume(s) in volume group "ubuntu-vg" monitored
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting FUSE Control File System...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Kernel Configuration File System...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted FUSE Control File System.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Kernel Configuration File System.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Remount Root and Kernel File Systems.
+Mar  8 21:15:33 ginaserver systemd[1]: Activating swap /swap.img...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Rebuild Hardware Database being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Platform Persistent Storage Archival being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Load/Save Random Seed...
+Mar  8 21:15:33 ginaserver systemd-modules-load[378]: Inserted module 'msr'
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Create System Users...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Load Kernel Modules.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Apply Kernel Variables...
+Mar  8 21:15:33 ginaserver systemd[1]: Activated swap /swap.img.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Swap.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Create System Users.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Load/Save Random Seed.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in First Boot Complete being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Apply Kernel Variables.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Create Static Device Nodes in /dev.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Rule-based Manager for Device Events and Files...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Set the console keyboard layout.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Coldplug All udev Devices.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Wait for udev To Complete Device Initialization...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Flush Journal to Persistent Storage.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Rule-based Manager for Device Events and Files.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Show Plymouth Boot Screen being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Forward Password Requests to Plymouth Directory Watch being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Local Encrypted Volumes.
+Mar  8 21:15:33 ginaserver systemd-udevd[412]: Using default interface naming scheme 'v249'.
+Mar  8 21:15:33 ginaserver systemd-udevd[412]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Mar  8 21:15:33 ginaserver systemd-udevd[411]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  8 21:15:33 ginaserver udevadm[403]: systemd-udev-settle.service is deprecated. Please fix multipathd.service not to pull it in.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Sound Card.
+Mar  8 21:15:33 ginaserver systemd[1]: Created slice system-lvm2\x2dpvscan.slice.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting LVM event activation on device 8:3...
+Mar  8 21:15:33 ginaserver lvm[560]:   pvscan[560] PV /dev/sda3 online, VG ubuntu-vg is complete.
+Mar  8 21:15:33 ginaserver lvm[560]:   pvscan[560] VG ubuntu-vg skip autoactivation.
+Mar  8 21:15:33 ginaserver systemd[1]: Found device VBOX_HARDDISK 2.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished LVM event activation on device 8:3.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Wait for udev To Complete Device Initialization.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Device-Mapper Multipath Device Controller...
+Mar  8 21:15:33 ginaserver multipathd[567]: --------start up--------
+Mar  8 21:15:33 ginaserver multipathd[567]: read /etc/multipath.conf
+Mar  8 21:15:33 ginaserver multipathd[567]: failed to increase buffer size
+Mar  8 21:15:33 ginaserver multipathd[567]: path checkers start up
+Mar  8 21:15:33 ginaserver systemd[1]: Started Device-Mapper Multipath Device Controller.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Local File Systems (Pre).
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Mount unit for core20, revision 1270...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Mount unit for core20, revision 1328...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Mount unit for lxd, revision 22407...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Mount unit for lxd, revision 22439...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting Mount unit for snapd, revision 14978...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting File System Check on /dev/disk/by-uuid/001bb6cb-ec19-46ff-8d19-2f743d909657...
+Mar  8 21:15:33 ginaserver systemd[1]: Started File System Check Daemon to report status.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Mount unit for snapd, revision 14978.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Mount unit for lxd, revision 22439.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Mount unit for core20, revision 1328.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Mount unit for core20, revision 1270.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted Mount unit for lxd, revision 22407.
+Mar  8 21:15:33 ginaserver systemd-fsck[586]: /dev/sda2: recovering journal
+Mar  8 21:15:33 ginaserver systemd-fsck[586]: /dev/sda2: clean, 316/65536 files, 54208/262144 blocks
+Mar  8 21:15:33 ginaserver systemd[1]: Finished File System Check on /dev/disk/by-uuid/001bb6cb-ec19-46ff-8d19-2f743d909657.
+Mar  8 21:15:33 ginaserver systemd[1]: Mounting /boot...
+Mar  8 21:15:33 ginaserver systemd[1]: Mounted /boot.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Local File Systems.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Load AppArmor profiles...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Set console font and keymap...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Create final runtime dir for shutdown pivot root...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in LXD - agent - 9p mount being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in LXD - agent being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Store a System Token in an EFI Variable being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Create Volatile Files and Directories...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Create final runtime dir for shutdown pivot root.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Set console font and keymap.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Tell Plymouth To Write Out Runtime Data.
+Mar  8 21:15:33 ginaserver apparmor.systemd[604]: Restarting AppArmor
+Mar  8 21:15:33 ginaserver apparmor.systemd[604]: Reloading AppArmor profiles
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Create Volatile Files and Directories.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Network Time Synchronization...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Update UTMP about System Boot/Shutdown.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Network Time Synchronization.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target System Time Set.
+Mar  8 21:15:33 ginaserver apparmor.systemd[625]: Skipping profile in /etc/apparmor.d/disable: usr.sbin.rsyslogd
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Load AppArmor profiles.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Load AppArmor profiles managed internally by snapd...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Authentication service for virtual machines hosted on VMware being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Service for virtual machines hosted on VMware being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Initial cloud-init job (pre-networking)...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Load AppArmor profiles managed internally by snapd.
+Mar  8 21:15:33 ginaserver cloud-init[654]: Cloud-init v. 21.3-1-g6803368d-0ubuntu3 running 'init-local' at Tue, 08 Mar 2022 21:15:32 +0000. Up 6.12 seconds.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Initial cloud-init job (pre-networking).
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Network (Pre).
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Network Service...
+Mar  8 21:15:33 ginaserver systemd-networkd[656]: Enumeration completed
+Mar  8 21:15:33 ginaserver systemd[1]: Started Network Service.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Wait for Network to be Configured...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Network Name Resolution...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Wait for Network to be Configured.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Initial cloud-init job (metadata service crawler)...
+Mar  8 21:15:33 ginaserver systemd-networkd[656]: enp0s3: Link UP
+Mar  8 21:15:33 ginaserver systemd-networkd[656]: enp0s3: Gained carrier
+Mar  8 21:15:33 ginaserver systemd-resolved[658]: Positive Trust Anchors:
+Mar  8 21:15:33 ginaserver systemd-resolved[658]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+Mar  8 21:15:33 ginaserver systemd-resolved[658]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa corp home internal intranet lan local private test
+Mar  8 21:15:33 ginaserver systemd-resolved[658]: Using system hostname 'ginaserver'.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Network Name Resolution.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Network.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Host and Network Name Lookups.
+Mar  8 21:15:33 ginaserver cloud-init[664]: Cloud-init v. 21.3-1-g6803368d-0ubuntu3 running 'init' at Tue, 08 Mar 2022 21:15:32 +0000. Up 6.61 seconds.
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: ++++++++++++++++++++++++++++++++++++Net device info++++++++++++++++++++++++++++++++++++
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +--------+------+-----------------------------+-----------+-------+-------------------+
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: | Device |  Up  |           Address           |    Mask   | Scope |     Hw-Address    |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +--------+------+-----------------------------+-----------+-------+-------------------+
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: | enp0s3 | True | fe80::a00:27ff:feb0:b7d4/64 |     .     |  link | 08:00:27:b0:b7:d4 |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: |   lo   | True |          127.0.0.1          | 255.0.0.0 |  host |         .         |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: |   lo   | True |           ::1/128           |     .     |  host |         .         |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +--------+------+-----------------------------+-----------+-------+-------------------+
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: |   1   |  fe80::/64  |    ::   |   enp0s3  |   U   |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: |   3   |  multicast  |    ::   |   enp0s3  |   U   |
+Mar  8 21:15:33 ginaserver cloud-init[664]: ci-info: +-------+-------------+---------+-----------+-------+
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Initial cloud-init job (metadata service crawler).
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Cloud-config availability.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Network is Online.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target System Initialization.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Process error reports when automatic reporting is enabled (file watch) being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Daily apt download activities.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Daily apt upgrade and clean activities.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Periodic ext4 Online Metadata Check for All Filesystems.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Discard unused blocks once a week.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Refresh fwupd metadata regularly.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Daily rotation of log files.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Daily man-db regeneration.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Message of the Day.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Timer to automatically fetch and run repair assertions being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Ubuntu Advantage update messaging.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Download data for packages that failed at package install time.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Check to see whether there is a new version of Ubuntu available.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Paths.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Timers.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Unix socket for apport crash forwarding being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on cloud-init hotplug hook socket.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on Open-iSCSI iscsid Socket.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Socket activation for snappy daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on UUID daemon activation socket.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Login to default iSCSI targets being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Remote File Systems (Pre).
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Remote File Systems.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Availability of block devices.
+Mar  8 21:15:33 ginaserver systemd[1]: Listening on Socket activation for snappy daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Sockets.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Basic System.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting LSB: automatic crash report generation...
+Mar  8 21:15:33 ginaserver systemd[1]: Started Regular background program processing daemon.
+Mar  8 21:15:33 ginaserver cron[670]: (CRON) INFO (pidfile fd = 3)
+Mar  8 21:15:33 ginaserver cron[670]: (CRON) INFO (Running @reboot jobs)
+Mar  8 21:15:33 ginaserver systemd[1]: Started D-Bus System Message Bus.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Save initial kernel messages after boot.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Remove Stale Online ext4 Metadata Check Snapshots...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Record successful boot for GRUB...
+Mar  8 21:15:33 ginaserver systemd[1]: Started irqbalance daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Dispatcher daemon for systemd-networkd...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Pollinate to seed the pseudo random number generator being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting System Logging Service...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Secure Boot updates for DB and DBX being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Service for snap application lxd.activate...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Automatically repair incorrect owner/permissions on core devices being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Wait for the Ubuntu Core chooser trigger being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Snap Daemon...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting OpenBSD Secure Shell server...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting User Login Management...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Permit User Sessions...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Thermal Daemon Service being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Ubuntu Advantage reboot cmds being skipped.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Disk Manager...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Permit User Sessions.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Hold until boot process finishes up...
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Terminate Plymouth Boot Screen...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Hold until boot process finishes up.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Set console scheme...
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Set console scheme.
+Mar  8 21:15:33 ginaserver systemd[1]: Created slice system-getty.slice.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Getty on tty1.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Login Prompts.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Terminate Plymouth Boot Screen.
+Mar  8 21:15:33 ginaserver systemd[1]: e2scrub_reap.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Remove Stale Online ext4 Metadata Check Snapshots.
+Mar  8 21:15:33 ginaserver /usr/sbin/irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Mar  8 21:15:33 ginaserver systemd[1]: irqbalance.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver udisksd[685]: udisks daemon version 2.9.4 starting
+Mar  8 21:15:33 ginaserver systemd[1]: Started System Logging Service.
+Mar  8 21:15:33 ginaserver rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Mar  8 21:15:33 ginaserver rsyslogd: rsyslogd's groupid changed to 113
+Mar  8 21:15:33 ginaserver rsyslogd: rsyslogd's userid changed to 107
+Mar  8 21:15:33 ginaserver rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="678" x-info="https://www.rsyslog.com"] start
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] Linux version 5.13.0-30-generic (buildd@lcy02-amd64-032) (gcc (Ubuntu 11.2.0-7ubuntu2) 11.2.0, GNU ld (GNU Binutils for Ubuntu) 2.37) #33-Ubuntu SMP Fri Feb 4 17:03:31 UTC 2022 (Ubuntu 5.13.0-30.33-generic 5.13.19)
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-5.13.0-30-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] KERNEL supported cpus:
+Mar  8 21:15:33 ginaserver kernel: [    0.000000]   Intel GenuineIntel
+Mar  8 21:15:33 ginaserver kernel: [    0.000000]   AMD AuthenticAMD
+Mar  8 21:15:33 ginaserver kernel: [    0.000000]   Hygon HygonGenuine
+Mar  8 21:15:33 ginaserver kernel: [    0.000000]   Centaur CentaurHauls
+Mar  8 21:15:33 ginaserver kernel: [    0.000000]   zhaoxin   Shanghai  
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-provided physical RAM map:
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] NX (Execute Disable) protection: active
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] SMBIOS 2.5 present.
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] Hypervisor detected: KVM
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar  8 21:15:33 ginaserver kernel: [    0.000000] kvm-clock: cpu 0, msr 23201001, primary cpu clock
+Mar  8 21:15:33 ginaserver kernel: [    0.000002] kvm-clock: using sched offset of 4122463234 cycles
+Mar  8 21:15:33 ginaserver kernel: [    0.000004] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.000008] tsc: Detected 3192.590 MHz processor
+Mar  8 21:15:33 ginaserver kernel: [    0.000502] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.000505] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar  8 21:15:33 ginaserver kernel: [    0.000509] last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Mar  8 21:15:33 ginaserver kernel: [    0.000520] Disabled
+Mar  8 21:15:33 ginaserver kernel: [    0.000521] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Mar  8 21:15:33 ginaserver kernel: [    0.000523] CPU MTRRs all blank - virtualized system.
+Mar  8 21:15:33 ginaserver kernel: [    0.000526] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Mar  8 21:15:33 ginaserver kernel: [    0.000594] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.000677] RAMDISK: [mem 0x3053d000-0x34295fff]
+Mar  8 21:15:33 ginaserver kernel: [    0.000683] ACPI: Early table checksum verification disabled
+Mar  8 21:15:33 ginaserver kernel: [    0.000687] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Mar  8 21:15:33 ginaserver kernel: [    0.000691] ACPI: XSDT 0x000000003FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar  8 21:15:33 ginaserver kernel: [    0.000698] ACPI: FACP 0x000000003FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar  8 21:15:33 ginaserver kernel: [    0.000704] ACPI: DSDT 0x000000003FFF0470 002325 (v02 VBOX   VBOXBIOS 00000002 INTL 20190509)
+Mar  8 21:15:33 ginaserver kernel: [    0.000708] ACPI: FACS 0x000000003FFF0200 000040
+Mar  8 21:15:33 ginaserver kernel: [    0.000711] ACPI: FACS 0x000000003FFF0200 000040
+Mar  8 21:15:33 ginaserver kernel: [    0.000715] ACPI: APIC 0x000000003FFF0240 000054 (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar  8 21:15:33 ginaserver kernel: [    0.000718] ACPI: SSDT 0x000000003FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20190509)
+Mar  8 21:15:33 ginaserver kernel: [    0.000721] ACPI: Reserving FACP table memory at [mem 0x3fff00f0-0x3fff01e3]
+Mar  8 21:15:33 ginaserver kernel: [    0.000723] ACPI: Reserving DSDT table memory at [mem 0x3fff0470-0x3fff2794]
+Mar  8 21:15:33 ginaserver kernel: [    0.000724] ACPI: Reserving FACS table memory at [mem 0x3fff0200-0x3fff023f]
+Mar  8 21:15:33 ginaserver kernel: [    0.000725] ACPI: Reserving FACS table memory at [mem 0x3fff0200-0x3fff023f]
+Mar  8 21:15:33 ginaserver kernel: [    0.000726] ACPI: Reserving APIC table memory at [mem 0x3fff0240-0x3fff0293]
+Mar  8 21:15:33 ginaserver kernel: [    0.000727] ACPI: Reserving SSDT table memory at [mem 0x3fff02a0-0x3fff046b]
+Mar  8 21:15:33 ginaserver kernel: [    0.000740] ACPI: Local APIC address 0xfee00000
+Mar  8 21:15:33 ginaserver kernel: [    0.000878] No NUMA configuration found
+Mar  8 21:15:33 ginaserver kernel: [    0.000879] Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.000887] NODE_DATA(0) allocated [mem 0x3ffc6000-0x3ffeffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001109] Zone ranges:
+Mar  8 21:15:33 ginaserver kernel: [    0.001110]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001112]   DMA32    [mem 0x0000000001000000-0x000000003ffeffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001113]   Normal   empty
+Mar  8 21:15:33 ginaserver kernel: [    0.001115]   Device   empty
+Mar  8 21:15:33 ginaserver kernel: [    0.001115] Movable zone start for each node
+Mar  8 21:15:33 ginaserver kernel: [    0.001118] Early memory node ranges
+Mar  8 21:15:33 ginaserver kernel: [    0.001119]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001120]   node   0: [mem 0x0000000000100000-0x000000003ffeffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001121] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffeffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.001123] On node 0 totalpages: 262030
+Mar  8 21:15:33 ginaserver kernel: [    0.001124]   DMA zone: 64 pages used for memmap
+Mar  8 21:15:33 ginaserver kernel: [    0.001125]   DMA zone: 158 pages reserved
+Mar  8 21:15:33 ginaserver kernel: [    0.001125]   DMA zone: 3998 pages, LIFO batch:0
+Mar  8 21:15:33 ginaserver kernel: [    0.001126]   DMA32 zone: 4032 pages used for memmap
+Mar  8 21:15:33 ginaserver kernel: [    0.001127]   DMA32 zone: 258032 pages, LIFO batch:63
+Mar  8 21:15:33 ginaserver kernel: [    0.001130] On node 0, zone DMA: 1 pages in unavailable ranges
+Mar  8 21:15:33 ginaserver kernel: [    0.001164] On node 0, zone DMA: 97 pages in unavailable ranges
+Mar  8 21:15:33 ginaserver kernel: [    0.003565] On node 0, zone DMA32: 16 pages in unavailable ranges
+Mar  8 21:15:33 ginaserver kernel: [    0.003874] ACPI: PM-Timer IO Port: 0x4008
+Mar  8 21:15:33 ginaserver kernel: [    0.003878] ACPI: Local APIC address 0xfee00000
+Mar  8 21:15:33 ginaserver kernel: [    0.003936] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Mar  8 21:15:33 ginaserver kernel: [    0.003940] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar  8 21:15:33 ginaserver kernel: [    0.003942] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Mar  8 21:15:33 ginaserver kernel: [    0.003944] ACPI: IRQ0 used by override.
+Mar  8 21:15:33 ginaserver kernel: [    0.003945] ACPI: IRQ9 used by override.
+Mar  8 21:15:33 ginaserver kernel: [    0.003947] Using ACPI (MADT) for SMP configuration information
+Mar  8 21:15:33 ginaserver kernel: [    0.003953] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Mar  8 21:15:33 ginaserver kernel: [    0.003973] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Mar  8 21:15:33 ginaserver kernel: [    0.003975] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.003976] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar  8 21:15:33 ginaserver kernel: [    0.003977] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.003979] [mem 0x40000000-0xfebfffff] available for PCI devices
+Mar  8 21:15:33 ginaserver kernel: [    0.003980] Booting paravirtualized kernel on KVM
+Mar  8 21:15:33 ginaserver kernel: [    0.003982] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.003988] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:1 nr_cpu_ids:1 nr_node_ids:1
+Mar  8 21:15:33 ginaserver kernel: [    0.004157] percpu: Embedded 65 pages/cpu s229376 r8192 d28672 u2097152
+Mar  8 21:15:33 ginaserver kernel: [    0.004161] pcpu-alloc: s229376 r8192 d28672 u2097152 alloc=1*2097152
+Mar  8 21:15:33 ginaserver kernel: [    0.004163] pcpu-alloc: [0] 0 
+Mar  8 21:15:33 ginaserver kernel: [    0.004180] kvm-guest: PV spinlocks disabled, single CPU
+Mar  8 21:15:33 ginaserver kernel: [    0.004187] Built 1 zonelists, mobility grouping on.  Total pages: 257776
+Mar  8 21:15:33 ginaserver kernel: [    0.004188] Policy zone: DMA32
+Mar  8 21:15:33 ginaserver kernel: [    0.004189] Kernel command line: BOOT_IMAGE=/vmlinuz-5.13.0-30-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro
+Mar  8 21:15:33 ginaserver kernel: [    0.004283] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.004316] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.004351] mem auto-init: stack:off, heap alloc:on, heap free:off
+Mar  8 21:15:33 ginaserver kernel: [    0.007093] Memory: 922932K/1048120K available (16393K kernel code, 3511K rwdata, 10512K rodata, 2896K init, 5728K bss, 124928K reserved, 0K cma-reserved)
+Mar  8 21:15:33 ginaserver kernel: [    0.007102] random: get_random_u64 called from kmem_cache_open+0x25/0x2f0 with crng_init=0
+Mar  8 21:15:33 ginaserver kernel: [    0.007190] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Mar  8 21:15:33 ginaserver kernel: [    0.007202] Kernel/User page tables isolation: enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.007217] ftrace: allocating 49744 entries in 195 pages
+Mar  8 21:15:33 ginaserver kernel: [    0.020780] ftrace: allocated 195 pages with 4 groups
+Mar  8 21:15:33 ginaserver kernel: [    0.020970] rcu: Hierarchical RCU implementation.
+Mar  8 21:15:33 ginaserver kernel: [    0.020973] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=1.
+Mar  8 21:15:33 ginaserver kernel: [    0.020975] 	Rude variant of Tasks RCU enabled.
+Mar  8 21:15:33 ginaserver kernel: [    0.020976] 	Tracing variant of Tasks RCU enabled.
+Mar  8 21:15:33 ginaserver kernel: [    0.020978] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Mar  8 21:15:33 ginaserver kernel: [    0.020979] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Mar  8 21:15:33 ginaserver kernel: [    0.023964] NR_IRQS: 524544, nr_irqs: 256, preallocated irqs: 16
+Mar  8 21:15:33 ginaserver kernel: [    0.024278] random: crng done (trusting CPU's manufacturer)
+Mar  8 21:15:33 ginaserver kernel: [    0.031197] Console: colour VGA+ 80x25
+Mar  8 21:15:33 ginaserver kernel: [    0.053536] printk: console [tty0] enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.053746] ACPI: Core revision 20210331
+Mar  8 21:15:33 ginaserver kernel: [    0.054048] APIC: Switch to symmetric I/O mode setup
+Mar  8 21:15:33 ginaserver kernel: [    0.054444] x2apic enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.054769] Switched APIC routing to physical x2apic.
+Mar  8 21:15:33 ginaserver kernel: [    0.055901] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar  8 21:15:33 ginaserver kernel: [    0.056140] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2e04f1e405e, max_idle_ns: 440795268354 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.056505] Calibrating delay loop (skipped) preset value.. 6385.18 BogoMIPS (lpj=12770360)
+Mar  8 21:15:33 ginaserver kernel: [    0.056814] pid_max: default: 32768 minimum: 301
+Mar  8 21:15:33 ginaserver kernel: [    0.057022] LSM: Security Framework initializing
+Mar  8 21:15:33 ginaserver kernel: [    0.057215] Yama: becoming mindful.
+Mar  8 21:15:33 ginaserver kernel: [    0.057407] AppArmor: AppArmor initialized
+Mar  8 21:15:33 ginaserver kernel: [    0.057602] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.057891] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.058505] process: using mwait in idle threads
+Mar  8 21:15:33 ginaserver kernel: [    0.058699] Last level iTLB entries: 4KB 1024, 2MB 1024, 4MB 1024
+Mar  8 21:15:33 ginaserver kernel: [    0.058917] Last level dTLB entries: 4KB 1024, 2MB 1024, 4MB 1024, 1GB 4
+Mar  8 21:15:33 ginaserver kernel: [    0.059151] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Mar  8 21:15:33 ginaserver kernel: [    0.059464] Spectre V2 : Mitigation: Full generic retpoline
+Mar  8 21:15:33 ginaserver kernel: [    0.059670] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Mar  8 21:15:33 ginaserver kernel: [    0.059976] Speculative Store Bypass: Vulnerable
+Mar  8 21:15:33 ginaserver kernel: [    0.060162] SRBDS: Unknown: Dependent on hypervisor status
+Mar  8 21:15:33 ginaserver kernel: [    0.060365] MDS: Mitigation: Clear CPU buffers
+Mar  8 21:15:33 ginaserver kernel: [    0.072165] Freeing SMP alternatives memory: 40K
+Mar  8 21:15:33 ginaserver kernel: [    0.181144] smpboot: CPU0: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz (family: 0x6, model: 0x3c, stepping: 0x3)
+Mar  8 21:15:33 ginaserver kernel: [    0.181684] Performance Events: unsupported p6 CPU model 60 no PMU driver, software events only.
+Mar  8 21:15:33 ginaserver kernel: [    0.182021] rcu: Hierarchical SRCU implementation.
+Mar  8 21:15:33 ginaserver kernel: [    0.182564] NMI watchdog: Perf NMI watchdog permanently disabled
+Mar  8 21:15:33 ginaserver kernel: [    0.182802] smp: Bringing up secondary CPUs ...
+Mar  8 21:15:33 ginaserver kernel: [    0.182966] smp: Brought up 1 node, 1 CPU
+Mar  8 21:15:33 ginaserver kernel: [    0.183131] smpboot: Max logical packages: 1
+Mar  8 21:15:33 ginaserver kernel: [    0.183329] smpboot: Total of 1 processors activated (6385.18 BogoMIPS)
+Mar  8 21:15:33 ginaserver kernel: [    0.183683] devtmpfs: initialized
+Mar  8 21:15:33 ginaserver kernel: [    0.183937] x86/mm: Memory block size: 128MB
+Mar  8 21:15:33 ginaserver kernel: [    0.184381] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.184501] futex hash table entries: 256 (order: 2, 16384 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.184501] pinctrl core: initialized pinctrl subsystem
+Mar  8 21:15:33 ginaserver kernel: [    0.184507] PM: RTC time: 21:15:26, date: 2022-03-08
+Mar  8 21:15:33 ginaserver kernel: [    0.184898] NET: Registered protocol family 16
+Mar  8 21:15:33 ginaserver kernel: [    0.185161] DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+Mar  8 21:15:33 ginaserver kernel: [    0.185399] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Mar  8 21:15:33 ginaserver kernel: [    0.185687] DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Mar  8 21:15:33 ginaserver kernel: [    0.185975] audit: initializing netlink subsys (disabled)
+Mar  8 21:15:33 ginaserver kernel: [    0.186367] thermal_sys: Registered thermal governor 'fair_share'
+Mar  8 21:15:33 ginaserver kernel: [    0.186368] thermal_sys: Registered thermal governor 'bang_bang'
+Mar  8 21:15:33 ginaserver kernel: [    0.186604] thermal_sys: Registered thermal governor 'step_wise'
+Mar  8 21:15:33 ginaserver kernel: [    0.186810] thermal_sys: Registered thermal governor 'user_space'
+Mar  8 21:15:33 ginaserver kernel: [    0.187006] thermal_sys: Registered thermal governor 'power_allocator'
+Mar  8 21:15:33 ginaserver kernel: [    0.187209] EISA bus registered
+Mar  8 21:15:33 ginaserver kernel: [    0.187552] cpuidle: using governor ladder
+Mar  8 21:15:33 ginaserver kernel: [    0.187709] cpuidle: using governor menu
+Mar  8 21:15:33 ginaserver kernel: [    0.187918] ACPI: bus type PCI registered
+Mar  8 21:15:33 ginaserver kernel: [    0.188089] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar  8 21:15:33 ginaserver kernel: [    0.188540] PCI: Using configuration type 1 for base access
+Mar  8 21:15:33 ginaserver kernel: [    0.190073] Kprobes globally optimized
+Mar  8 21:15:33 ginaserver kernel: [    0.190310] audit: type=2000 audit(1646774131.852:1): state=initialized audit_enabled=0 res=1
+Mar  8 21:15:33 ginaserver kernel: [    0.190743] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Mar  8 21:15:33 ginaserver kernel: [    0.191763] ACPI: Added _OSI(Module Device)
+Mar  8 21:15:33 ginaserver kernel: [    0.191985] ACPI: Added _OSI(Processor Device)
+Mar  8 21:15:33 ginaserver kernel: [    0.192182] ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar  8 21:15:33 ginaserver kernel: [    0.192366] ACPI: Added _OSI(Processor Aggregator Device)
+Mar  8 21:15:33 ginaserver kernel: [    0.192501] ACPI: Added _OSI(Linux-Dell-Video)
+Mar  8 21:15:33 ginaserver kernel: [    0.192501] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Mar  8 21:15:33 ginaserver kernel: [    0.192501] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Mar  8 21:15:33 ginaserver kernel: [    0.194215] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Mar  8 21:15:33 ginaserver kernel: [    0.197738] ACPI: Interpreter enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.197921] ACPI: (supports S0 S5)
+Mar  8 21:15:33 ginaserver kernel: [    0.198082] ACPI: Using IOAPIC for interrupt routing
+Mar  8 21:15:33 ginaserver kernel: [    0.198483] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar  8 21:15:33 ginaserver kernel: [    0.198924] ACPI: Enabled 2 GPEs in block 00 to 07
+Mar  8 21:15:33 ginaserver kernel: [    0.204671] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar  8 21:15:33 ginaserver kernel: [    0.204889] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Mar  8 21:15:33 ginaserver kernel: [    0.205534] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Mar  8 21:15:33 ginaserver kernel: [    0.205847] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar  8 21:15:33 ginaserver kernel: [    0.206469] PCI host bridge to bus 0000:00
+Mar  8 21:15:33 ginaserver kernel: [    0.206627] pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar  8 21:15:33 ginaserver kernel: [    0.206809] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar  8 21:15:33 ginaserver kernel: [    0.207016] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.207223] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.207479] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.207765] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Mar  8 21:15:33 ginaserver kernel: [    0.208548] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Mar  8 21:15:33 ginaserver kernel: [    0.209400] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Mar  8 21:15:33 ginaserver kernel: [    0.209835] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Mar  8 21:15:33 ginaserver kernel: [    0.210124] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar  8 21:15:33 ginaserver kernel: [    0.210346] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar  8 21:15:33 ginaserver kernel: [    0.210556] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar  8 21:15:33 ginaserver kernel: [    0.210778] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar  8 21:15:33 ginaserver kernel: [    0.211422] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Mar  8 21:15:33 ginaserver kernel: [    0.213065] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Mar  8 21:15:33 ginaserver kernel: [    0.214902] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe3ffffff pref]
+Mar  8 21:15:33 ginaserver kernel: [    0.216551] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.220501] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Mar  8 21:15:33 ginaserver kernel: [    0.221198] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.225969] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Mar  8 21:15:33 ginaserver kernel: [    0.229915] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Mar  8 21:15:33 ginaserver kernel: [    0.230943] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Mar  8 21:15:33 ginaserver kernel: [    0.231841] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.232612] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Mar  8 21:15:33 ginaserver kernel: [    0.237131] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Mar  8 21:15:33 ginaserver kernel: [    0.237479] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Mar  8 21:15:33 ginaserver kernel: [    0.237737] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Mar  8 21:15:33 ginaserver kernel: [    0.238661] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Mar  8 21:15:33 ginaserver kernel: [    0.239720] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Mar  8 21:15:33 ginaserver kernel: [    0.245118] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Mar  8 21:15:33 ginaserver kernel: [    0.245745] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar  8 21:15:33 ginaserver kernel: [    0.246012] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar  8 21:15:33 ginaserver kernel: [    0.248554] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Mar  8 21:15:33 ginaserver kernel: [    0.249746] pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Mar  8 21:15:33 ginaserver kernel: [    0.255709] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Mar  8 21:15:33 ginaserver kernel: [    0.256597] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Mar  8 21:15:33 ginaserver kernel: [    0.257660] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Mar  8 21:15:33 ginaserver kernel: [    0.258761] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Mar  8 21:15:33 ginaserver kernel: [    0.259797] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Mar  8 21:15:33 ginaserver kernel: [    0.260592] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Mar  8 21:15:33 ginaserver kernel: [    0.261662] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Mar  8 21:15:33 ginaserver kernel: [    0.269302] ACPI: PCI: Interrupt link LNKA configured for IRQ 11
+Mar  8 21:15:33 ginaserver kernel: [    0.269786] ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+Mar  8 21:15:33 ginaserver kernel: [    0.270077] ACPI: PCI: Interrupt link LNKC configured for IRQ 9
+Mar  8 21:15:33 ginaserver kernel: [    0.270391] ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+Mar  8 21:15:33 ginaserver kernel: [    0.270876] iommu: Default domain type: Translated 
+Mar  8 21:15:33 ginaserver kernel: [    0.271222] SCSI subsystem initialized
+Mar  8 21:15:33 ginaserver kernel: [    0.271407] libata version 3.00 loaded.
+Mar  8 21:15:33 ginaserver kernel: [    0.271477] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Mar  8 21:15:33 ginaserver kernel: [    0.271707] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Mar  8 21:15:33 ginaserver kernel: [    0.271997] pci 0000:00:02.0: vgaarb: bridge control possible
+Mar  8 21:15:33 ginaserver kernel: [    0.272211] vgaarb: loaded
+Mar  8 21:15:33 ginaserver kernel: [    0.272438] ACPI: bus type USB registered
+Mar  8 21:15:33 ginaserver kernel: [    0.272501] usbcore: registered new interface driver usbfs
+Mar  8 21:15:33 ginaserver kernel: [    0.272501] usbcore: registered new interface driver hub
+Mar  8 21:15:33 ginaserver kernel: [    0.272501] usbcore: registered new device driver usb
+Mar  8 21:15:33 ginaserver kernel: [    0.272501] pps_core: LinuxPPS API ver. 1 registered
+Mar  8 21:15:33 ginaserver kernel: [    0.272501] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Mar  8 21:15:33 ginaserver kernel: [    0.272541] PTP clock support registered
+Mar  8 21:15:33 ginaserver kernel: [    0.272962] EDAC MC: Ver: 3.0.0
+Mar  8 21:15:33 ginaserver kernel: [    0.273730] NetLabel: Initializing
+Mar  8 21:15:33 ginaserver kernel: [    0.273896] NetLabel:  domain hash size = 128
+Mar  8 21:15:33 ginaserver kernel: [    0.274099] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Mar  8 21:15:33 ginaserver kernel: [    0.274321] NetLabel:  unlabeled traffic allowed by default
+Mar  8 21:15:33 ginaserver kernel: [    0.274574] PCI: Using ACPI for IRQ routing
+Mar  8 21:15:33 ginaserver kernel: [    0.274751] PCI: pci_cache_line_size set to 64 bytes
+Mar  8 21:15:33 ginaserver kernel: [    0.276645] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.276651] e820: reserve RAM buffer [mem 0x3fff0000-0x3fffffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.277609] clocksource: Switched to clocksource kvm-clock
+Mar  8 21:15:33 ginaserver kernel: [    0.285550] VFS: Disk quotas dquot_6.6.0
+Mar  8 21:15:33 ginaserver kernel: [    0.285740] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar  8 21:15:33 ginaserver kernel: [    0.286053] AppArmor: AppArmor Filesystem Enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.286250] pnp: PnP ACPI init
+Mar  8 21:15:33 ginaserver kernel: [    0.286457] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Mar  8 21:15:33 ginaserver kernel: [    0.286543] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Mar  8 21:15:33 ginaserver kernel: [    0.287165] pnp: PnP ACPI: found 2 devices
+Mar  8 21:15:33 ginaserver kernel: [    0.295493] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.295915] NET: Registered protocol family 2
+Mar  8 21:15:33 ginaserver kernel: [    0.296136] IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.297207] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.297548] TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.297871] TCP bind hash table entries: 8192 (order: 5, 131072 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.298171] TCP: Hash tables configured (established 8192 bind 8192)
+Mar  8 21:15:33 ginaserver kernel: [    0.298455] MPTCP token hash table entries: 1024 (order: 2, 24576 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.298772] UDP hash table entries: 512 (order: 2, 16384 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.299008] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes, linear)
+Mar  8 21:15:33 ginaserver kernel: [    0.299293] NET: Registered protocol family 1
+Mar  8 21:15:33 ginaserver kernel: [    0.299483] NET: Registered protocol family 44
+Mar  8 21:15:33 ginaserver kernel: [    0.299678] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Mar  8 21:15:33 ginaserver kernel: [    0.299902] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.300124] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.300362] pci_bus 0000:00: resource 7 [mem 0x40000000-0xfdffffff window]
+Mar  8 21:15:33 ginaserver kernel: [    0.300647] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar  8 21:15:33 ginaserver kernel: [    0.301140] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar  8 21:15:33 ginaserver kernel: [    0.302816] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Mar  8 21:15:33 ginaserver kernel: [    0.305570] PCI: CLS 0 bytes, default 64
+Mar  8 21:15:33 ginaserver kernel: [    0.305801] Trying to unpack rootfs image as initramfs...
+Mar  8 21:15:33 ginaserver kernel: [    0.309554] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2e04f1e405e, max_idle_ns: 440795268354 ns
+Mar  8 21:15:33 ginaserver kernel: [    0.309913] clocksource: Switched to clocksource tsc
+Mar  8 21:15:33 ginaserver kernel: [    0.310129] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar  8 21:15:33 ginaserver kernel: [    0.323034] Initialise system trusted keyrings
+Mar  8 21:15:33 ginaserver kernel: [    0.323245] Key type blacklist registered
+Mar  8 21:15:33 ginaserver kernel: [    0.323475] workingset: timestamp_bits=36 max_order=18 bucket_order=0
+Mar  8 21:15:33 ginaserver kernel: [    0.324643] zbud: loaded
+Mar  8 21:15:33 ginaserver kernel: [    0.325026] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Mar  8 21:15:33 ginaserver kernel: [    0.325375] fuse: init (API version 7.34)
+Mar  8 21:15:33 ginaserver kernel: [    0.325670] integrity: Platform Keyring initialized
+Mar  8 21:15:33 ginaserver kernel: [    0.326695] Key type asymmetric registered
+Mar  8 21:15:33 ginaserver kernel: [    0.342983] Asymmetric key parser 'x509' registered
+Mar  8 21:15:33 ginaserver kernel: [    0.343249] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 243)
+Mar  8 21:15:33 ginaserver kernel: [    0.343579] io scheduler mq-deadline registered
+Mar  8 21:15:33 ginaserver kernel: [    0.343886] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Mar  8 21:15:33 ginaserver kernel: [    0.344295] ACPI: AC: AC Adapter [AC] (on-line)
+Mar  8 21:15:33 ginaserver kernel: [    0.344503] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar  8 21:15:33 ginaserver kernel: [    0.344818] ACPI: button: Power Button [PWRF]
+Mar  8 21:15:33 ginaserver kernel: [    0.345055] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar  8 21:15:33 ginaserver kernel: [    0.345333] ACPI: button: Sleep Button [SLPF]
+Mar  8 21:15:33 ginaserver kernel: [    0.345704] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+Mar  8 21:15:33 ginaserver kernel: [    0.347150] Linux agpgart interface v0.103
+Mar  8 21:15:33 ginaserver kernel: [    0.417752] loop: module loaded
+Mar  8 21:15:33 ginaserver kernel: [    0.418100] ata_piix 0000:00:01.1: version 2.13
+Mar  8 21:15:33 ginaserver kernel: [    0.424830] scsi host0: ata_piix
+Mar  8 21:15:33 ginaserver kernel: [    0.428928] scsi host1: ata_piix
+Mar  8 21:15:33 ginaserver kernel: [    0.429158] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar  8 21:15:33 ginaserver kernel: [    0.429397] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar  8 21:15:33 ginaserver kernel: [    0.429729] libphy: Fixed MDIO Bus: probed
+Mar  8 21:15:33 ginaserver kernel: [    0.429888] tun: Universal TUN/TAP device driver, 1.6
+Mar  8 21:15:33 ginaserver kernel: [    0.430299] PPP generic driver version 2.4.2
+Mar  8 21:15:33 ginaserver kernel: [    0.430501] VFIO - User Level meta-driver version: 0.3
+Mar  8 21:15:33 ginaserver kernel: [    0.430776] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar  8 21:15:33 ginaserver kernel: [    0.430990] ehci-pci: EHCI PCI platform driver
+Mar  8 21:15:33 ginaserver kernel: [    0.431683] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Mar  8 21:15:33 ginaserver kernel: [    0.431873] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Mar  8 21:15:33 ginaserver kernel: [    0.432304] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Mar  8 21:15:33 ginaserver kernel: [    0.451793] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Mar  8 21:15:33 ginaserver kernel: [    0.452090] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.13
+Mar  8 21:15:33 ginaserver kernel: [    0.452386] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  8 21:15:33 ginaserver kernel: [    0.452669] usb usb1: Product: EHCI Host Controller
+Mar  8 21:15:33 ginaserver kernel: [    0.452867] usb usb1: Manufacturer: Linux 5.13.0-30-generic ehci_hcd
+Mar  8 21:15:33 ginaserver kernel: [    0.453101] usb usb1: SerialNumber: 0000:00:0b.0
+Mar  8 21:15:33 ginaserver kernel: [    0.453433] hub 1-0:1.0: USB hub found
+Mar  8 21:15:33 ginaserver kernel: [    0.453611] hub 1-0:1.0: 12 ports detected
+Mar  8 21:15:33 ginaserver kernel: [    0.453989] ehci-platform: EHCI generic platform driver
+Mar  8 21:15:33 ginaserver kernel: [    0.454204] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar  8 21:15:33 ginaserver kernel: [    0.454430] ohci-pci: OHCI PCI platform driver
+Mar  8 21:15:33 ginaserver kernel: [    0.455283] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Mar  8 21:15:33 ginaserver kernel: [    0.455500] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Mar  8 21:15:33 ginaserver kernel: [    0.455846] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Mar  8 21:15:33 ginaserver kernel: [    0.514541] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.13
+Mar  8 21:15:33 ginaserver kernel: [    0.515392] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Mar  8 21:15:33 ginaserver kernel: [    0.515664] usb usb2: Product: OHCI PCI host controller
+Mar  8 21:15:33 ginaserver kernel: [    0.515847] usb usb2: Manufacturer: Linux 5.13.0-30-generic ohci_hcd
+Mar  8 21:15:33 ginaserver kernel: [    0.516052] usb usb2: SerialNumber: 0000:00:06.0
+Mar  8 21:15:33 ginaserver kernel: [    0.516343] hub 2-0:1.0: USB hub found
+Mar  8 21:15:33 ginaserver kernel: [    0.516532] hub 2-0:1.0: 12 ports detected
+Mar  8 21:15:33 ginaserver kernel: [    0.521178] ohci-platform: OHCI generic platform driver
+Mar  8 21:15:33 ginaserver kernel: [    0.521409] uhci_hcd: USB Universal Host Controller Interface driver
+Mar  8 21:15:33 ginaserver kernel: [    0.521818] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar  8 21:15:33 ginaserver kernel: [    0.522597] serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar  8 21:15:33 ginaserver kernel: [    0.522857] serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar  8 21:15:33 ginaserver kernel: [    0.525921] mousedev: PS/2 mouse device common for all mice
+Mar  8 21:15:33 ginaserver kernel: [    0.526433] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar  8 21:15:33 ginaserver kernel: [    0.527210] rtc_cmos rtc_cmos: registered as rtc0
+Mar  8 21:15:33 ginaserver kernel: [    0.527426] rtc_cmos rtc_cmos: setting system clock to 2022-03-08T21:15:26 UTC (1646774126)
+Mar  8 21:15:33 ginaserver kernel: [    0.527720] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar  8 21:15:33 ginaserver kernel: [    0.527940] i2c /dev entries driver
+Mar  8 21:15:33 ginaserver kernel: [    0.528148] device-mapper: uevent: version 1.0.3
+Mar  8 21:15:33 ginaserver kernel: [    0.532845] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+Mar  8 21:15:33 ginaserver kernel: [    0.533243] platform eisa.0: Probing EISA bus 0
+Mar  8 21:15:33 ginaserver kernel: [    0.533420] platform eisa.0: EISA: Cannot allocate resource for mainboard
+Mar  8 21:15:33 ginaserver kernel: [    0.533658] platform eisa.0: Cannot allocate resource for EISA slot 1
+Mar  8 21:15:33 ginaserver kernel: [    0.533884] platform eisa.0: Cannot allocate resource for EISA slot 2
+Mar  8 21:15:33 ginaserver kernel: [    0.544486] platform eisa.0: Cannot allocate resource for EISA slot 3
+Mar  8 21:15:33 ginaserver kernel: [    0.544719] platform eisa.0: Cannot allocate resource for EISA slot 4
+Mar  8 21:15:33 ginaserver kernel: [    0.544925] platform eisa.0: Cannot allocate resource for EISA slot 5
+Mar  8 21:15:33 ginaserver kernel: [    0.545134] platform eisa.0: Cannot allocate resource for EISA slot 6
+Mar  8 21:15:33 ginaserver kernel: [    0.545367] platform eisa.0: Cannot allocate resource for EISA slot 7
+Mar  8 21:15:33 ginaserver kernel: [    0.545582] platform eisa.0: Cannot allocate resource for EISA slot 8
+Mar  8 21:15:33 ginaserver kernel: [    0.545805] platform eisa.0: EISA: Detected 0 cards
+Mar  8 21:15:33 ginaserver kernel: [    0.546005] intel_pstate: CPU model not supported
+Mar  8 21:15:33 ginaserver kernel: [    0.549057] ledtrig-cpu: registered to indicate activity on CPUs
+Mar  8 21:15:33 ginaserver kernel: [    0.549362] drop_monitor: Initializing network drop monitor service
+Mar  8 21:15:33 ginaserver kernel: [    0.549731] NET: Registered protocol family 10
+Mar  8 21:15:33 ginaserver kernel: [    0.601385] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Mar  8 21:15:33 ginaserver kernel: [    0.602857] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Mar  8 21:15:33 ginaserver kernel: [    0.627211] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Mar  8 21:15:33 ginaserver kernel: [    0.627451] cdrom: Uniform CD-ROM driver Revision: 3.20
+Mar  8 21:15:33 ginaserver kernel: [    0.657180] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Mar  8 21:15:33 ginaserver kernel: [    0.657450] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Mar  8 21:15:33 ginaserver kernel: [    0.990762] usb 2-1: new full-speed USB device number 2 using ohci-pci
+Mar  8 21:15:33 ginaserver kernel: [    1.045490] Freeing initrd memory: 62820K
+Mar  8 21:15:33 ginaserver kernel: [    1.055432] Segment Routing with IPv6
+Mar  8 21:15:33 ginaserver kernel: [    1.055637] NET: Registered protocol family 17
+Mar  8 21:15:33 ginaserver kernel: [    1.055856] Key type dns_resolver registered
+Mar  8 21:15:33 ginaserver kernel: [    1.056132] IPI shorthand broadcast: enabled
+Mar  8 21:15:33 ginaserver kernel: [    1.056312] sched_clock: Marking stable (1021755701, 32301554)->(1053338181, 719074)
+Mar  8 21:15:33 ginaserver kernel: [    1.056676] registered taskstats version 1
+Mar  8 21:15:33 ginaserver kernel: [    1.056856] Loading compiled-in X.509 certificates
+Mar  8 21:15:33 ginaserver kernel: [    1.057598] Loaded X.509 cert 'Build time autogenerated kernel key: 3e79c7cae6aba4be389af1e475cd0b49c9e62fc4'
+Mar  8 21:15:33 ginaserver kernel: [    1.058432] Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+Mar  8 21:15:33 ginaserver kernel: [    1.059261] Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+Mar  8 21:15:33 ginaserver kernel: [    1.059590] blacklist: Loading compiled-in revocation X.509 certificates
+Mar  8 21:15:33 ginaserver kernel: [    1.059832] Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+Mar  8 21:15:33 ginaserver kernel: [    1.060191] zswap: loaded using pool lzo/zbud
+Mar  8 21:15:33 ginaserver kernel: [    1.060469] Key type ._fscrypt registered
+Mar  8 21:15:33 ginaserver kernel: [    1.060650] Key type .fscrypt registered
+Mar  8 21:15:33 ginaserver kernel: [    1.060815] Key type fscrypt-provisioning registered
+Mar  8 21:15:33 ginaserver kernel: [    1.064242] Key type encrypted registered
+Mar  8 21:15:33 ginaserver kernel: [    1.064438] AppArmor: AppArmor sha1 policy hashing enabled
+Mar  8 21:15:33 ginaserver kernel: [    1.064643] ima: No TPM chip found, activating TPM-bypass!
+Mar  8 21:15:33 ginaserver kernel: [    1.064843] Loading compiled-in module X.509 certificates
+Mar  8 21:15:33 ginaserver kernel: [    1.065563] Loaded X.509 cert 'Build time autogenerated kernel key: 3e79c7cae6aba4be389af1e475cd0b49c9e62fc4'
+Mar  8 21:15:33 ginaserver kernel: [    1.065898] ima: Allocated hash algorithm: sha1
+Mar  8 21:15:33 ginaserver kernel: [    1.066081] ima: No architecture policies found
+Mar  8 21:15:33 ginaserver kernel: [    1.066271] evm: Initialising EVM extended attributes:
+Mar  8 21:15:33 ginaserver kernel: [    1.066463] evm: security.selinux
+Mar  8 21:15:33 ginaserver kernel: [    1.066611] evm: security.SMACK64
+Mar  8 21:15:33 ginaserver kernel: [    1.066796] evm: security.SMACK64EXEC
+Mar  8 21:15:33 ginaserver kernel: [    1.066961] evm: security.SMACK64TRANSMUTE
+Mar  8 21:15:33 ginaserver kernel: [    1.067137] evm: security.SMACK64MMAP
+Mar  8 21:15:33 ginaserver kernel: [    1.067304] evm: security.apparmor
+Mar  8 21:15:33 ginaserver kernel: [    1.067470] evm: security.ima
+Mar  8 21:15:33 ginaserver kernel: [    1.067618] evm: security.capability
+Mar  8 21:15:33 ginaserver kernel: [    1.067791] evm: HMAC attrs: 0x1
+Mar  8 21:15:33 ginaserver kernel: [    1.068405] PM:   Magic number: 14:529:297
+Mar  8 21:15:33 ginaserver kernel: [    1.068805] RAS: Correctable Errors collector initialized.
+Mar  8 21:15:33 ginaserver kernel: [    1.070564] Freeing unused decrypted memory: 2036K
+Mar  8 21:15:33 ginaserver kernel: [    1.071366] Freeing unused kernel image (initmem) memory: 2896K
+Mar  8 21:15:33 ginaserver kernel: [    1.072591] Write protecting the kernel read-only data: 30720k
+Mar  8 21:15:33 ginaserver kernel: [    1.073285] Freeing unused kernel image (text/rodata gap) memory: 2036K
+Mar  8 21:15:33 ginaserver kernel: [    1.073801] Freeing unused kernel image (rodata/data gap) memory: 1776K
+Mar  8 21:15:33 ginaserver kernel: [    1.115494] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar  8 21:15:33 ginaserver kernel: [    1.115712] x86/mm: Checking user space page tables
+Mar  8 21:15:33 ginaserver kernel: [    1.154935] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Mar  8 21:15:33 ginaserver kernel: [    1.160145] Run /init as init process
+Mar  8 21:15:33 ginaserver kernel: [    1.160372]   with arguments:
+Mar  8 21:15:33 ginaserver kernel: [    1.160374]     /init
+Mar  8 21:15:33 ginaserver kernel: [    1.160376]   with environment:
+Mar  8 21:15:33 ginaserver kernel: [    1.160377]     HOME=/
+Mar  8 21:15:33 ginaserver kernel: [    1.160377]     TERM=linux
+Mar  8 21:15:33 ginaserver kernel: [    1.160378]     BOOT_IMAGE=/vmlinuz-5.13.0-30-generic
+Mar  8 21:15:33 ginaserver kernel: [    1.303760] e1000: Intel(R) PRO/1000 Network Driver
+Mar  8 21:15:33 ginaserver kernel: [    1.303960] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar  8 21:15:33 ginaserver kernel: [    1.307224] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar  8 21:15:33 ginaserver kernel: [    1.311966] ahci 0000:00:0d.0: version 3.0
+Mar  8 21:15:33 ginaserver kernel: [    1.315109] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar  8 21:15:33 ginaserver kernel: [    1.315462] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar  8 21:15:33 ginaserver kernel: [    1.315768] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar  8 21:15:33 ginaserver kernel: [    1.336234] scsi host2: ahci
+Mar  8 21:15:33 ginaserver kernel: [    1.336503] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Mar  8 21:15:33 ginaserver kernel: [    1.337896] cryptd: max_cpu_qlen set to 1000
+Mar  8 21:15:33 ginaserver kernel: [    1.347472] AVX2 version of gcm_enc/dec engaged.
+Mar  8 21:15:33 ginaserver kernel: [    1.347675] AES CTR mode by8 optimization enabled
+Mar  8 21:15:33 ginaserver kernel: [    1.376774] ACPI: video: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar  8 21:15:33 ginaserver kernel: [    1.377163] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5
+Mar  8 21:15:33 ginaserver kernel: [    1.387832] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Mar  8 21:15:33 ginaserver kernel: [    1.388154] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Mar  8 21:15:33 ginaserver kernel: [    1.388396] usb 2-1: Product: USB Tablet
+Mar  8 21:15:33 ginaserver kernel: [    1.388566] usb 2-1: Manufacturer: VirtualBox
+Mar  8 21:15:33 ginaserver kernel: [    1.422382] vmwgfx 0000:00:02.0: vgaarb: deactivate vga console
+Mar  8 21:15:33 ginaserver kernel: [    1.470174] Console: switching to colour dummy device 80x25
+Mar  8 21:15:33 ginaserver kernel: [    1.480040] [TTM] Zone  kernel: Available graphics memory: 497398 KiB
+Mar  8 21:15:33 ginaserver kernel: [    1.480101] [drm] FIFO at 0x00000000f0000000 size is 2048 kiB
+Mar  8 21:15:33 ginaserver kernel: [    1.480117] [drm] VRAM at 0x00000000e0000000 size is 65536 kiB
+Mar  8 21:15:33 ginaserver kernel: [    1.480135] [drm] DMA map mode: Caching DMA mappings.
+Mar  8 21:15:33 ginaserver kernel: [    1.480166] [drm] Capabilities:
+Mar  8 21:15:33 ginaserver kernel: [    1.480168] [drm]   Cursor.
+Mar  8 21:15:33 ginaserver kernel: [    1.480174] [drm]   Cursor bypass 2.
+Mar  8 21:15:33 ginaserver kernel: [    1.480176] [drm]   Alpha cursor.
+Mar  8 21:15:33 ginaserver kernel: [    1.480177] [drm]   3D.
+Mar  8 21:15:33 ginaserver kernel: [    1.480178] [drm]   Extended Fifo.
+Mar  8 21:15:33 ginaserver kernel: [    1.480179] [drm]   Pitchlock.
+Mar  8 21:15:33 ginaserver kernel: [    1.480181] [drm]   Irq mask.
+Mar  8 21:15:33 ginaserver kernel: [    1.480182] [drm]   GMR.
+Mar  8 21:15:33 ginaserver kernel: [    1.480183] [drm]   Traces.
+Mar  8 21:15:33 ginaserver kernel: [    1.480184] [drm]   GMR2.
+Mar  8 21:15:33 ginaserver kernel: [    1.480186] [drm]   Screen Object 2.
+Mar  8 21:15:33 ginaserver kernel: [    1.480188] [drm] Max GMR ids is 8192
+Mar  8 21:15:33 ginaserver kernel: [    1.480189] [drm] Max number of GMR pages is 1048576
+Mar  8 21:15:33 ginaserver kernel: [    1.480191] [drm] Max dedicated hypervisor surface memory is 490496 kiB
+Mar  8 21:15:33 ginaserver kernel: [    1.480192] [drm] Maximum display memory size is 33792 kiB
+Mar  8 21:15:33 ginaserver kernel: [    1.512938] [drm] Screen Objects Display Unit initialized
+Mar  8 21:15:33 ginaserver kernel: [    1.513070] [drm] width 720
+Mar  8 21:15:33 ginaserver kernel: [    1.513080] [drm] height 400
+Mar  8 21:15:33 ginaserver kernel: [    1.513088] [drm] bpp 32
+Mar  8 21:15:33 ginaserver kernel: [    1.513462] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Mar  8 21:15:33 ginaserver kernel: [    1.513483] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send host log message.
+Mar  8 21:15:33 ginaserver kernel: [    1.515319] fbcon: svgadrmfb (fb0) is primary device
+Mar  8 21:15:33 ginaserver kernel: [    1.515807] Console: switching to colour frame buffer device 100x37
+Mar  8 21:15:33 ginaserver kernel: [    1.523633] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Mar  8 21:15:33 ginaserver kernel: [    1.559674] [drm] Initialized vmwgfx 2.18.1 20210218 for 0000:00:02.0 on minor 0
+Mar  8 21:15:33 ginaserver kernel: [    1.572989] hid: raw HID events driver (C) Jiri Kosina
+Mar  8 21:15:33 ginaserver kernel: [    1.603053] usbcore: registered new interface driver usbhid
+Mar  8 21:15:33 ginaserver kernel: [    1.603089] usbhid: USB HID core driver
+Mar  8 21:15:33 ginaserver kernel: [    1.606378] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Mar  8 21:15:33 ginaserver kernel: [    1.606735] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Mar  8 21:15:33 ginaserver kernel: [    1.654751] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar  8 21:15:33 ginaserver kernel: [    1.659006] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar  8 21:15:33 ginaserver kernel: [    1.659662] ata3.00: 20971520 sectors, multi 128: LBA48 NCQ (depth 32)
+Mar  8 21:15:33 ginaserver kernel: [    1.664336] ata3.00: configured for UDMA/133
+Mar  8 21:15:33 ginaserver kernel: [    1.664882] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar  8 21:15:33 ginaserver kernel: [    1.665487] sd 2:0:0:0: [sda] 20971520 512-byte logical blocks: (10.7 GB/10.0 GiB)
+Mar  8 21:15:33 ginaserver kernel: [    1.665890] sd 2:0:0:0: [sda] Write Protect is off
+Mar  8 21:15:33 ginaserver kernel: [    1.666302] sd 2:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Mar  8 21:15:33 ginaserver kernel: [    1.666322] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Mar  8 21:15:33 ginaserver kernel: [    1.666819] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar  8 21:15:33 ginaserver kernel: [    1.706366]  sda: sda1 sda2 sda3
+Mar  8 21:15:33 ginaserver kernel: [    1.727435] sd 2:0:0:0: [sda] Attached SCSI disk
+Mar  8 21:15:33 ginaserver kernel: [    1.868815] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:b0:b7:d4
+Mar  8 21:15:33 ginaserver kernel: [    1.869305] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar  8 21:15:33 ginaserver kernel: [    1.871310] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Mar  8 21:15:33 ginaserver kernel: [    2.038727] raid6: avx2x4   gen() 593797 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.090708] raid6: avx2x4   xor() 159765 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.150718] raid6: avx2x2   gen() 551235 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.202721] raid6: avx2x2   xor() 309791 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.254723] raid6: avx2x1   gen() 461402 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.306715] raid6: avx2x1   xor() 282382 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.366720] raid6: sse2x4   gen() 295435 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.430724] raid6: sse2x4   xor() 156177 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.490714] raid6: sse2x2   gen() 314319 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.554721] raid6: sse2x2   xor() 205898 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.614719] raid6: sse2x1   gen() 258664 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.666747] raid6: sse2x1   xor() 133674 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.667172] raid6: using algorithm avx2x4 gen() 26245 MB/s
+Mar  8 21:15:33 ginaserver kernel: [    2.667566] raid6: .... xor() 159765 MB/s, rmw enabled
+Mar  8 21:15:33 ginaserver kernel: [    2.667947] raid6: using avx2x2 recovery algorithm
+Mar  8 21:15:33 ginaserver kernel: [    2.670413] xor: automatically using best checksumming function   avx       
+Mar  8 21:15:33 ginaserver kernel: [    2.671831] async_tx: api initialized (async)
+Mar  8 21:15:33 ginaserver kernel: [    2.763242] Btrfs loaded, crc32c=crc32c-intel, zoned=yes
+Mar  8 21:15:33 ginaserver kernel: [    3.030015] EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Mar  8 21:15:33 ginaserver kernel: [    3.289567] systemd[1]: Inserted module 'autofs4'
+Mar  8 21:15:33 ginaserver kernel: [    3.311814] systemd[1]: systemd 248.3-1ubuntu8.2 running in system mode. (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT +GNUTLS -OPENSSL +ACL +BLKID +CURL +ELFUTILS -FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP -LIBFDISK +PCRE2 -PWQUALITY -P11KIT -QRENCODE +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+Mar  8 21:15:33 ginaserver kernel: [    3.314664] systemd[1]: Detected virtualization oracle.
+Mar  8 21:15:33 ginaserver kernel: [    3.315387] systemd[1]: Detected architecture x86-64.
+Mar  8 21:15:33 ginaserver kernel: [    3.320377] systemd[1]: Hostname set to <ginaserver>.
+Mar  8 21:15:33 ginaserver kernel: [    3.739888] systemd[1]: Queued start job for default target Graphical Interface.
+Mar  8 21:15:33 ginaserver kernel: [    3.741635] systemd[1]: Created slice system-modprobe.slice.
+Mar  8 21:15:33 ginaserver kernel: [    3.743277] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+Mar  8 21:15:33 ginaserver kernel: [    3.744766] systemd[1]: Created slice User and Session Slice.
+Mar  8 21:15:33 ginaserver kernel: [    3.745996] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+Mar  8 21:15:33 ginaserver kernel: [    3.747405] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+Mar  8 21:15:33 ginaserver kernel: [    3.749164] systemd[1]: Reached target Slices.
+Mar  8 21:15:33 ginaserver kernel: [    3.750320] systemd[1]: Reached target Local Verity Integrity Protected Volumes.
+Mar  8 21:15:33 ginaserver kernel: [    3.751769] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+Mar  8 21:15:33 ginaserver kernel: [    3.752958] systemd[1]: Listening on LVM2 poll daemon socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.754075] systemd[1]: Listening on multipathd control socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.755423] systemd[1]: Listening on Syslog Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.756792] systemd[1]: Listening on fsck to fsckd communication Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.757955] systemd[1]: Listening on initctl Compatibility Named Pipe.
+Mar  8 21:15:33 ginaserver kernel: [    3.759276] systemd[1]: Listening on Journal Audit Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.760435] systemd[1]: Listening on Journal Socket (/dev/log).
+Mar  8 21:15:33 ginaserver kernel: [    3.761605] systemd[1]: Listening on Journal Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.762934] systemd[1]: Listening on Network Service Netlink Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.764132] systemd[1]: Listening on udev Control Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.765324] systemd[1]: Listening on udev Kernel Socket.
+Mar  8 21:15:33 ginaserver kernel: [    3.767340] systemd[1]: Mounting Huge Pages File System...
+Mar  8 21:15:33 ginaserver kernel: [    3.772772] systemd[1]: Mounting POSIX Message Queue File System...
+Mar  8 21:15:33 ginaserver kernel: [    3.777133] systemd[1]: Mounting Kernel Debug File System...
+Mar  8 21:15:33 ginaserver kernel: [    3.779295] systemd[1]: Mounting Kernel Trace File System...
+Mar  8 21:15:33 ginaserver kernel: [    3.783923] systemd[1]: Starting Journal Service...
+Mar  8 21:15:33 ginaserver kernel: [    3.788479] systemd[1]: Starting Set the console keyboard layout...
+Mar  8 21:15:33 ginaserver kernel: [    3.796213] systemd[1]: Starting Create list of static device nodes for the current kernel...
+Mar  8 21:15:33 ginaserver kernel: [    3.802174] systemd[1]: Starting Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+Mar  8 21:15:33 ginaserver kernel: [    3.806982] systemd[1]: Starting Load Kernel Module configfs...
+Mar  8 21:15:33 ginaserver kernel: [    3.810755] systemd[1]: Starting Load Kernel Module drm...
+Mar  8 21:15:33 ginaserver kernel: [    3.813357] systemd[1]: Starting Load Kernel Module fuse...
+Mar  8 21:15:33 ginaserver kernel: [    3.817174] systemd[1]: Condition check resulted in OpenVSwitch configuration for cleanup being skipped.
+Mar  8 21:15:33 ginaserver kernel: [    3.825520] systemd[1]: Condition check resulted in Set Up Additional Binary Formats being skipped.
+Mar  8 21:15:33 ginaserver kernel: [    3.826692] systemd[1]: Condition check resulted in File System Check on Root Device being skipped.
+Mar  8 21:15:33 ginaserver kernel: [    3.830161] systemd[1]: Starting Load Kernel Modules...
+Mar  8 21:15:33 ginaserver kernel: [    3.834205] systemd[1]: Starting Remount Root and Kernel File Systems...
+Mar  8 21:15:33 ginaserver kernel: [    3.840586] systemd[1]: Starting Coldplug All udev Devices...
+Mar  8 21:15:33 ginaserver kernel: [    3.845514] systemd[1]: Starting Uncomplicated firewall...
+Mar  8 21:15:33 ginaserver kernel: [    3.852728] systemd[1]: Mounted Huge Pages File System.
+Mar  8 21:15:33 ginaserver kernel: [    3.859574] systemd[1]: Mounted POSIX Message Queue File System.
+Mar  8 21:15:33 ginaserver kernel: [    3.860853] systemd[1]: Mounted Kernel Debug File System.
+Mar  8 21:15:33 ginaserver kernel: [    3.862272] systemd[1]: Mounted Kernel Trace File System.
+Mar  8 21:15:33 ginaserver kernel: [    3.865933] systemd[1]: Finished Create list of static device nodes for the current kernel.
+Mar  8 21:15:33 ginaserver kernel: [    3.875833] systemd[1]: modprobe@configfs.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver kernel: [    3.876691] systemd[1]: Finished Load Kernel Module configfs.
+Mar  8 21:15:33 ginaserver kernel: [    3.878223] systemd[1]: modprobe@drm.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver kernel: [    3.879895] systemd[1]: Finished Load Kernel Module drm.
+Mar  8 21:15:33 ginaserver kernel: [    3.895941] systemd[1]: Started Journal Service.
+Mar  8 21:15:33 ginaserver kernel: [    3.917439] EXT4-fs (dm-0): re-mounted. Opts: (null). Quota mode: none.
+Mar  8 21:15:33 ginaserver kernel: [    3.959155] Adding 1713148k swap on /swap.img.  Priority:-2 extents:5 across:2221052k FS
+Mar  8 21:15:33 ginaserver kernel: [    3.988665] systemd-journald[369]: Received client request to flush runtime journal.
+Mar  8 21:15:33 ginaserver kernel: [    4.391711] vboxguest: host-version: 6.1.32r149290 0x8000000f
+Mar  8 21:15:33 ginaserver kernel: [    4.392506] vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Mar  8 21:15:33 ginaserver kernel: [    4.392988] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Mar  8 21:15:33 ginaserver kernel: [    4.403001] vboxguest: misc device minor 122, IRQ 20, I/O port d040, MMIO at 0x00000000f0400000 (size 0x0000000000400000)
+Mar  8 21:15:33 ginaserver kernel: [    4.592246] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Mar  8 21:15:33 ginaserver kernel: [    4.767841] snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Mar  8 21:15:33 ginaserver kernel: [    5.066434] alua: device handler registered
+Mar  8 21:15:33 ginaserver kernel: [    5.068259] emc: device handler registered
+Mar  8 21:15:33 ginaserver kernel: [    5.070328] rdac: device handler registered
+Mar  8 21:15:33 ginaserver kernel: [    5.141811] loop0: detected capacity change from 0 to 89264
+Mar  8 21:15:33 ginaserver kernel: [    5.147254] loop1: detected capacity change from 0 to 158184
+Mar  8 21:15:33 ginaserver kernel: [    5.151663] loop2: detected capacity change from 0 to 126792
+Mar  8 21:15:33 ginaserver kernel: [    5.161213] loop3: detected capacity change from 0 to 126784
+Mar  8 21:15:33 ginaserver kernel: [    5.173440] loop4: detected capacity change from 0 to 156240
+Mar  8 21:15:33 ginaserver kernel: [    5.279192] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null). Quota mode: none.
+Mar  8 21:15:33 ginaserver kernel: [    5.381900] audit: type=1400 audit(1646774131.351:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=616 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.386964] audit: type=1400 audit(1646774131.351:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=619 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.386969] audit: type=1400 audit(1646774131.351:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=619 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.411364] audit: type=1400 audit(1646774131.375:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=620 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.411369] audit: type=1400 audit(1646774131.375:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-helper" pid=620 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.411371] audit: type=1400 audit(1646774131.375:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=620 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.411373] audit: type=1400 audit(1646774131.375:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/{,usr/}sbin/dhclient" pid=620 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.425143] audit: type=1400 audit(1646774131.395:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=621 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.425148] audit: type=1400 audit(1646774131.395:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=621 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    5.425151] audit: type=1400 audit(1646774131.395:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=621 comm="apparmor_parser"
+Mar  8 21:15:33 ginaserver kernel: [    6.334535] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar  8 21:15:33 ginaserver kernel: [    6.334826] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: dbus[671]: Unknown group "power" in message bus configuration file
+Mar  8 21:15:33 ginaserver apport[668]:  * Starting automatic crash report generation: apport
+Mar  8 21:15:33 ginaserver systemd[1]: grub-common.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Record successful boot for GRUB.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting GRUB failed boot detection...
+Mar  8 21:15:33 ginaserver apport[668]:    ...done.
+Mar  8 21:15:33 ginaserver systemd[1]: Started LSB: automatic crash report generation.
+Mar  8 21:15:33 ginaserver systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished GRUB failed boot detection.
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: [system] AppArmor D-Bus mediation is enabled
+Mar  8 21:15:33 ginaserver systemd[1]: Started User Login Management.
+Mar  8 21:15:33 ginaserver systemd[1]: Started Unattended Upgrades Shutdown.
+Mar  8 21:15:33 ginaserver udisksd[685]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Mar  8 21:15:33 ginaserver udisksd[685]: Failed to load the 'mdraid' libblockdev plugin
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.4' (uid=0 pid=685 comm="/usr/libexec/udisks2/udisksd " label="unconfined")
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Authorization Manager...
+Mar  8 21:15:33 ginaserver systemd[1]: Started OpenBSD Secure Shell server.
+Mar  8 21:15:33 ginaserver polkitd[729]: started daemon version 0.105 using authority implementation `local' version `0.105'
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+Mar  8 21:15:33 ginaserver systemd[1]: Started Authorization Manager.
+Mar  8 21:15:33 ginaserver snapd[681]: AppArmor status: apparmor is enabled and all features are available
+Mar  8 21:15:33 ginaserver networkd-dispatcher[677]: No valid path found for iwconfig
+Mar  8 21:15:33 ginaserver systemd[1]: Started Dispatcher daemon for systemd-networkd.
+Mar  8 21:15:33 ginaserver snapd[681]: daemon.go:246: started snapd/2.54.3+21.10.1ubuntu0.2 (series 16; classic) ubuntu/21.10 (amd64) linux/5.13.0-30-generic.
+Mar  8 21:15:33 ginaserver kernel: [    7.594585] loop5: detected capacity change from 0 to 8
+Mar  8 21:15:33 ginaserver snapd[681]: daemon.go:339: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+Mar  8 21:15:33 ginaserver systemd[1]: Started Snap Daemon.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Wait until snapd is fully seeded...
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.9' (uid=0 pid=681 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Time & Date Service...
+Mar  8 21:15:33 ginaserver systemd[1]: Started Disk Manager.
+Mar  8 21:15:33 ginaserver lxd.activate[680]: => Starting LXD activation
+Mar  8 21:15:33 ginaserver lxd.activate[680]: ==> Loading snap configuration
+Mar  8 21:15:33 ginaserver lxd.activate[680]: ==> Checking for socket activation support
+Mar  8 21:15:33 ginaserver dbus-daemon[671]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  8 21:15:33 ginaserver systemd[1]: Started Time & Date Service.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Wait until snapd is fully seeded.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Apply the settings specified in cloud-config...
+Mar  8 21:15:33 ginaserver systemd[1]: Condition check resulted in Auto import assertions from block devices being skipped.
+Mar  8 21:15:33 ginaserver udisksd[685]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Mar  8 21:15:33 ginaserver lxd.activate[680]: ==> Setting LXD socket ownership
+Mar  8 21:15:33 ginaserver lxd.activate[680]: ==> Setting LXD user socket ownership
+Mar  8 21:15:33 ginaserver lxd.activate[680]: ==> LXD never started on this system, no need to start it now
+Mar  8 21:15:33 ginaserver systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Service for snap application lxd.activate.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Multi-User System.
+Mar  8 21:15:33 ginaserver systemd[1]: Reached target Graphical Interface.
+Mar  8 21:15:33 ginaserver systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar  8 21:15:33 ginaserver systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+Mar  8 21:15:33 ginaserver systemd[1]: Finished Update UTMP about System Runlevel Changes.
+Mar  8 21:15:34 ginaserver systemd-networkd[656]: enp0s3: Gained IPv6LL
+Mar  8 21:15:34 ginaserver systemd-timesyncd[617]: Network configuration changed, trying to establish connection.
+Mar  8 21:15:34 ginaserver cloud-init[815]: Cloud-init v. 21.3-1-g6803368d-0ubuntu3 running 'modules:config' at Tue, 08 Mar 2022 21:15:34 +0000. Up 8.14 seconds.
+Mar  8 21:15:34 ginaserver systemd[1]: Finished Apply the settings specified in cloud-config.
+Mar  8 21:15:34 ginaserver systemd[1]: Starting Execute cloud user/final scripts...
+Mar  8 21:15:34 ginaserver cloud-init[820]: Cloud-init v. 21.3-1-g6803368d-0ubuntu3 running 'modules:final' at Tue, 08 Mar 2022 21:15:34 +0000. Up 8.51 seconds.
+Mar  8 21:15:34 ginaserver cloud-init[820]: Cloud-init v. 21.3-1-g6803368d-0ubuntu3 finished at Tue, 08 Mar 2022 21:15:34 +0000. Datasource DataSourceNone.  Up 8.60 seconds
+Mar  8 21:15:34 ginaserver cloud-init[820]: 2022-03-08 21:15:34,615 - cc_final_message.py[WARNING]: Used fallback datasource
+Mar  8 21:15:34 ginaserver systemd[1]: Finished Execute cloud user/final scripts.
+Mar  8 21:15:34 ginaserver systemd[1]: Reached target Cloud-init target.
+Mar  8 21:15:34 ginaserver systemd[1]: Startup finished in 3.222s (kernel) + 5.444s (userspace) = 8.667s.
+Mar  8 21:15:34 ginaserver systemd[1]: dmesg.service: Deactivated successfully.
+Mar  8 21:15:35 ginaserver systemd-networkd[656]: enp0s3: DHCPv4 address 192.168.1.212/24 via 192.168.1.1
+Mar  8 21:15:35 ginaserver dbus-daemon[671]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.2' (uid=102 pid=656 comm="/lib/systemd/systemd-networkd " label="unconfined")
+Mar  8 21:15:35 ginaserver systemd[1]: Starting Hostname Service...
+Mar  8 21:15:35 ginaserver systemd-timesyncd[617]: Network configuration changed, trying to establish connection.
+Mar  8 21:15:35 ginaserver systemd-timesyncd[617]: Network configuration changed, trying to establish connection.
+Mar  8 21:15:35 ginaserver dbus-daemon[671]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar  8 21:15:35 ginaserver systemd[1]: Started Hostname Service.
+Mar  8 21:15:35 ginaserver systemd-hostnamed[841]: Hostname set to <ginaserver> (static)
+Mar  8 21:15:46 ginaserver systemd[1]: Created slice User Slice of UID 1000.
+Mar  8 21:15:46 ginaserver systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar  8 21:15:46 ginaserver systemd[1]: Finished User Runtime Directory /run/user/1000.
+Mar  8 21:15:46 ginaserver systemd[1]: Starting User Manager for UID 1000...
+Mar  8 21:15:46 ginaserver systemd[958]: Queued start job for default target Main User Target.
+Mar  8 21:15:46 ginaserver systemd[958]: Created slice User Application Slice.
+Mar  8 21:15:46 ginaserver systemd[958]: Reached target Paths.
+Mar  8 21:15:46 ginaserver systemd[958]: Reached target Timers.
+Mar  8 21:15:46 ginaserver systemd[958]: Starting D-Bus User Message Bus Socket.
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on GnuPG network certificate management daemon.
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on GnuPG cryptographic agent and passphrase cache.
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on debconf communication socket.
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on REST API socket for snapd user session agent.
+Mar  8 21:15:46 ginaserver systemd[958]: Listening on D-Bus User Message Bus Socket.
+Mar  8 21:15:46 ginaserver systemd[958]: Reached target Sockets.
+Mar  8 21:15:46 ginaserver systemd[958]: Reached target Basic System.
+Mar  8 21:15:46 ginaserver systemd[1]: Started User Manager for UID 1000.
+Mar  8 21:15:46 ginaserver systemd[1]: Started Session 1 of user ginahobbs.
+Mar  8 21:15:46 ginaserver systemd[958]: Reached target Main User Target.
+Mar  8 21:15:46 ginaserver systemd[958]: Startup finished in 100ms.
+Mar  8 21:16:01 ginaserver systemd[1]: systemd-fsckd.service: Deactivated successfully.
+Mar  8 21:16:05 ginaserver systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Mar  8 21:16:07 ginaserver systemd-resolved[658]: Clock change detected. Flushing caches.
+Mar  8 21:16:07 ginaserver systemd-timesyncd[617]: Initial synchronization to time server 91.189.91.157:123 (ntp.ubuntu.com).
+Mar  8 21:16:12 ginaserver systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar  8 21:16:43 ginaserver systemd[1]: Started Session 3 of user ginahobbs.
+Mar  8 21:17:03 ginaserver CRON[1297]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Mar  8 21:20:35 ginaserver systemd[1]: Starting Download data for packages that failed at package install time...
+Mar  8 21:20:35 ginaserver systemd[1]: update-notifier-download.service: Deactivated successfully.
+Mar  8 21:20:35 ginaserver systemd[1]: Finished Download data for packages that failed at package install time.
+Mar  8 21:20:42 ginaserver dbus-daemon[671]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.9' (uid=0 pid=681 comm="/usr/lib/snapd/snapd " label="unconfined")
+Mar  8 21:20:42 ginaserver systemd[1]: Starting Time & Date Service...
+Mar  8 21:20:42 ginaserver dbus-daemon[671]: [system] Successfully activated service 'org.freedesktop.timedate1'
+Mar  8 21:20:42 ginaserver systemd[1]: Started Time & Date Service.
+Mar  8 21:20:43 ginaserver snapd[681]: storehelpers.go:721: cannot refresh snap "snapd": snap has no updates available
+Mar  8 21:20:47 ginaserver systemd[1]: Reloading.
+Mar  8 21:20:47 ginaserver systemd[1]: Reloading.
+Mar  8 21:20:48 ginaserver systemd[1]: Mounting Mount unit for core20, revision 1361...
+Mar  8 21:20:48 ginaserver kernel: [  320.817014] loop5: detected capacity change from 0 to 126752
+Mar  8 21:20:48 ginaserver systemd[1]: Mounted Mount unit for core20, revision 1361.
+Mar  8 21:20:49 ginaserver systemd[958]: snap-core20-1270.mount: Deactivated successfully.
+Mar  8 21:20:49 ginaserver systemd[1]: Unmounting Mount unit for core20, revision 1270...
+Mar  8 21:20:49 ginaserver systemd[1]: snap-core20-1270.mount: Mount process exited, code=exited, status=32/n/a
+Mar  8 21:20:49 ginaserver umount[1763]: umount: /snap/core20/1270: not mounted.
+Mar  8 21:20:49 ginaserver systemd[1]: snap-core20-1270.mount: Failed with result 'exit-code'.
+Mar  8 21:20:49 ginaserver systemd[1]: Unmounted Mount unit for core20, revision 1270.
+Mar  8 21:20:49 ginaserver systemd[1]: Reloading.
+Mar  8 21:20:59 ginaserver systemd[1]: message repeated 3 times: [ Reloading.]
+Mar  8 21:21:00 ginaserver systemd[1]: Mounting Mount unit for lxd, revision 22525...
+Mar  8 21:21:00 ginaserver kernel: [  332.614589] loop3: detected capacity change from 0 to 159968
+Mar  8 21:21:00 ginaserver systemd[1]: Mounted Mount unit for lxd, revision 22525.
+Mar  8 21:21:00 ginaserver systemd[1]: snap.lxd.user-daemon.unix.socket: Deactivated successfully.
+Mar  8 21:21:00 ginaserver systemd[1]: Closed Socket unix for snap application lxd.user-daemon.
+Mar  8 21:21:01 ginaserver systemd[1]: snap.lxd.daemon.unix.socket: Deactivated successfully.
+Mar  8 21:21:01 ginaserver systemd[1]: Closed Socket unix for snap application lxd.daemon.
+Mar  8 21:21:01 ginaserver systemd[1]: Reloading.
+Mar  8 21:21:04 ginaserver kernel: [  337.156886] kauditd_printk_skb: 19 callbacks suppressed
+Mar  8 21:21:04 ginaserver kernel: [  337.156889] audit: type=1400 audit(1646774464.704:31): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/14978/usr/lib/snapd/snap-confine" pid=2217 comm="apparmor_parser"
+Mar  8 21:21:04 ginaserver kernel: [  337.156893] audit: type=1400 audit(1646774464.704:32): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="/snap/snapd/14978/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=2217 comm="apparmor_parser"
+Mar  8 21:21:04 ginaserver kernel: [  337.243993] audit: type=1400 audit(1646774464.784:33): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.activate" pid=2219 comm="apparmor_parser"
+Mar  8 21:21:04 ginaserver kernel: [  337.351048] audit: type=1400 audit(1646774464.896:34): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.benchmark" pid=2220 comm="apparmor_parser"
+Mar  8 21:21:04 ginaserver kernel: [  337.439396] audit: type=1400 audit(1646774464.980:35): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.buginfo" pid=2221 comm="apparmor_parser"
+Mar  8 21:21:05 ginaserver kernel: [  337.526847] audit: type=1400 audit(1646774465.072:36): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.check-kernel" pid=2222 comm="apparmor_parser"
+Mar  8 21:21:05 ginaserver kernel: [  337.650278] audit: type=1400 audit(1646774465.192:37): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.daemon" pid=2223 comm="apparmor_parser"
+Mar  8 21:21:05 ginaserver kernel: [  337.775136] audit: type=1400 audit(1646774465.316:38): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.configure" pid=2224 comm="apparmor_parser"
+Mar  8 21:21:05 ginaserver kernel: [  337.846362] audit: type=1400 audit(1646774465.384:39): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.install" pid=2225 comm="apparmor_parser"
+Mar  8 21:21:05 ginaserver kernel: [  337.936678] audit: type=1400 audit(1646774465.480:40): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="snap.lxd.hook.remove" pid=2226 comm="apparmor_parser"
+Mar  8 21:21:07 ginaserver systemd[1]: message repeated 8 times: [ Reloading.]
+Mar  8 21:21:07 ginaserver systemd[1]: Listening on Socket unix for snap application lxd.daemon.
+Mar  8 21:21:07 ginaserver systemd[1]: Reloading.
+Mar  8 21:21:08 ginaserver systemd[1]: Listening on Socket unix for snap application lxd.user-daemon.
+Mar  8 21:21:08 ginaserver systemd[1]: Starting Service for snap application lxd.activate...
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: => Starting LXD activation
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: ==> Loading snap configuration
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: ==> Checking for socket activation support
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: ==> Setting LXD socket ownership
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: ==> Setting LXD user socket ownership
+Mar  8 21:21:08 ginaserver lxd.activate[2387]: ==> LXD never started on this system, no need to start it now
+Mar  8 21:21:08 ginaserver systemd[1]: snap.lxd.activate.service: Deactivated successfully.
+Mar  8 21:21:08 ginaserver systemd[1]: Finished Service for snap application lxd.activate.
+Mar  8 21:21:08 ginaserver systemd[958]: snap-lxd-22407.mount: Deactivated successfully.
+Mar  8 21:21:08 ginaserver systemd[1]: Unmounting Mount unit for lxd, revision 22407...
+Mar  8 21:21:08 ginaserver systemd[1]: snap-lxd-22407.mount: Mount process exited, code=exited, status=32/n/a
+Mar  8 21:21:08 ginaserver umount[2428]: umount: /snap/lxd/22407: not mounted.
+Mar  8 21:21:08 ginaserver systemd[1]: snap-lxd-22407.mount: Failed with result 'exit-code'.
+Mar  8 21:21:08 ginaserver systemd[1]: Unmounted Mount unit for lxd, revision 22407.
+Mar  8 21:21:08 ginaserver systemd[1]: Reloading.
+Mar  8 21:21:09 ginaserver systemd[1]: Reloading.
+Mar  8 21:21:09 ginaserver systemd[1]: Started snap.lxd.hook.configure.4c18d6f9-3afd-4364-8b34-7da68cb2046c.scope.
+Mar  8 21:21:09 ginaserver systemd[1]: snap.lxd.hook.configure.4c18d6f9-3afd-4364-8b34-7da68cb2046c.scope: Deactivated successfully.
+Mar  8 21:21:10 ginaserver snapd[681]: storehelpers.go:721: cannot refresh: snap has no updates available: "core20", "lxd"
+Mar  8 21:21:12 ginaserver systemd[1]: systemd-timedated.service: Deactivated successfully.
+Mar  8 21:30:31 ginaserver systemd[1]: Starting Cleanup of Temporary Directories...
+Mar  8 21:30:31 ginaserver systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+Mar  8 21:30:31 ginaserver systemd[1]: Finished Cleanup of Temporary Directories.
