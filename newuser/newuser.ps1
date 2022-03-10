@@ -1,0 +1,1 @@
+New-ADUser -Name "Franz Ferdianand" -GivenName "Franz" -Surname "Ferdinand" -SamAccountName "fferdinand" -Email "ferdi@GlobeXpower.com" -Department "TPS" -Office "Springfield, OR" -Title "TPS Reporting Lead"
